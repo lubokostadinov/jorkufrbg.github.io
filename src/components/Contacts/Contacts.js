@@ -309,16 +309,6 @@ function Contacts() {
                   <FaCodepen aria-label="CodePen" />
                 </a>
               )}
-              {socialsData.codepen && (
-                <a
-                  href={socialsData.codepen}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaCodepen aria-label="CodePen" />
-                </a>
-              )}
             </div>
           </div>
         </div>

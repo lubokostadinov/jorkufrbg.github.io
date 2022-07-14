@@ -88,13 +88,12 @@ function Landing() {
               </a>
             )}
             {socialsData.codepen && (
-              <a
-                href={socialsData.codepen}
-                target="_blank"
-                rel="noreferrer"
-                className={classes.socialIcon}
-              >
-                <FaCodepen aria-label="CodePen" />
+              <a href={socialsData.codepen} target="_blank" rel="noreferrer">
+                <FaCodepen
+                  className="landing--social"
+                  style={{ color: theme.secondary }}
+                  aria-label="GitHub"
+                />
               </a>
             )}
           </div>
