@@ -12,6 +12,34 @@ import sample from "../assets/svg/projects/ten.svg";
 export const projectsData = [
   {
     id: 1,
+    projectName: "React Meetups Application",
+    projectDesc: "Browse a huge list of highly active React meetups!",
+    tags: ["React", "Next.js", "MongoDB"],
+    code: "https://github.com/jorkufrbg/next-meetups",
+    demo: "https://meetups-nextjs-l8uk1bzc7-jorkufrbg.vercel.app/",
+    image: ten,
+  },
+  {
+    id: 2,
+    projectName: "React Quotes Application",
+    projectDesc: "Simple React App for cool quotes",
+    tags: ["React", "Router", "Firebase"],
+    code: "https://github.com/jorkufrbg/React-Quotes-App",
+    demo: "https://quotes-app-a62b0.web.app/quotes",
+    image: sample,
+  },
+  {
+    id: 3,
+    projectName: "Jamming React App",
+    projectDesc: "Simple App to search and add music using the Spotify API",
+    tags: ["React", "JavaScript", "Spotify API"],
+    code: "https://github.com/jorkufrbg/Jamming-React",
+    demo: "http://jamming-cc.surge.sh/",
+    image: three,
+  },
+
+  {
+    id: 4,
     projectName: "Flights And Adventures",
     projectDesc: "Website for paragliding and extreme sports",
     tags: ["Wordpress", "CSS", "jQuery"],
@@ -20,37 +48,37 @@ export const projectsData = [
     image: two,
   },
   {
-    id: 2,
+    id: 5,
     projectName: "Wordborn",
     projectDesc:
       "This project is a focus on teaching technical writing, public speaking and creative writing",
     tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
     code: "https://github.com/jorkufrbg/Wordborn-v2",
     demo: "https://wordborn.org/",
-    image: sample,
+    image: seven,
   },
   {
-    id: 3,
+    id: 6,
     projectName: "Studio Rubik",
     projectDesc:
       "Creative Agency for Video Production, Rebranding and UX/UI Design",
     tags: ["Wordpress", "SCSS", "Javascript", "Webpack"],
     code: "#",
     demo: "https://www.studiorubik.com/",
-    image: three,
+    image: one,
   },
   {
-    id: 4,
+    id: 7,
     projectName: "Ido Design",
     projectDesc:
       "High-end wayfinding solutions, interior design branding and POSM solutions for public interior and exterior commercial spaces.",
     tags: ["Python", "CSS", "JavaScript"],
     code: "#",
     demo: "https://ido.design/",
-    image: ten,
+    image: eight,
   },
   {
-    id: 5,
+    id: 8,
     projectName: "Whisp",
     projectDesc:
       "Your fast-track self-service tool to sort out you healthcare and residency abroad or back home!",
@@ -60,7 +88,7 @@ export const projectsData = [
     image: six,
   },
   {
-    id: 6,
+    id: 9,
     projectName: "Motoretta",
     projectDesc: "https://motorettagroup.com/",
     tags: ["PHP", "jQuery", "SCSS"],
@@ -69,7 +97,7 @@ export const projectsData = [
     image: five,
   },
   {
-    id: 7,
+    id: 10,
     projectName: "Aakasha",
     projectDesc: "A simple clothing brand",
     tags: ["PHP", "jQuery", "Bootstrap"],
@@ -78,7 +106,7 @@ export const projectsData = [
     image: four,
   },
   {
-    id: 8,
+    id: 11,
     projectName: "Sofia Art Gallery",
     projectDesc:
       "The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution",

@@ -9,7 +9,7 @@ export const experienceData = [
   {
     id: 2,
     company: "Studio Rubik",
-    jobtitle: "Web Developer (Custom Themes)",
+    jobtitle: "Web Developer",
     startYear: "2019",
     endYear: "2021",
   },
