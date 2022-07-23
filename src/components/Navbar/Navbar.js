@@ -5,13 +5,13 @@ import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
 import { HiDocumentText } from "react-icons/hi";
 import { BsFillGearFill } from "react-icons/bs";
 import { MdPhone } from "react-icons/md";
-import { FaUser, FaFolderOpen } from "react-icons/fa";
+// import { FaUser, FaFolderOpen } from "react-icons/fa";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CloseIcon from "@material-ui/icons/Close";
 
 import "./Navbar.css";
-import { headerData } from "../../data/headerData";
+// import { headerData } from "../../data/headerData";
 import { ThemeContext } from "../../contexts/ThemeContext";
 
 function Navbar() {
@@ -122,13 +122,13 @@ function Navbar() {
 
   const classes = useStyles();
 
-  const shortname = (name) => {
-    if (name.length > 12) {
-      return name.split(" ")[0];
-    } else {
-      return name;
-    }
-  };
+  // const shortname = (name) => {
+  //   if (name.length > 12) {
+  //     return name.split(" ")[0];
+  //   } else {
+  //     return name;
+  //   }
+  // };
 
   return (
     <div className="navbar">
