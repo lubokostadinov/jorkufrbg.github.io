@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jorkufrbg.github.io/portfolio",
-  "name": "developer-portfolio",
+  "homepage": "https://jorkufrbg.github.io/",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
