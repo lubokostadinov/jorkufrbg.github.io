@@ -386,3 +386,25 @@ export const yellowThemeDark = {
   expimg: expYellow,
   contactsimg: contactsYellow,
 };
+
+export const customBlueDark = {
+  type: "dark",
+  primary: " #00a0e3",
+  primary400: "#00a0e3",
+  primary600: "#00a0e3",
+  primary80: "#00a0e3cc",
+  primary50: "#00a0e380",
+  primary30: "#00a0e34d",
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: redThemeboy,
+  aboutimg2: redThemegirl,
+  eduimg: eduRed,
+  expimg: expRed,
+  contactsimg: contactsRed,
+};
