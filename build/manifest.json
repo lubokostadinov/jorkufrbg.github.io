@@ -1,6 +1,6 @@
 {
-  "short_name": "Developer Portfolio",
-  "name": "Developer Portfolio template by hhhrrrttt222111",
+  "short_name": "Georgi Karadzhov Portfolio",
+  "name": "Georgi Karadzhov Portfolio Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00a0e3",
+  "background_color": "#00a0e3"
 }
