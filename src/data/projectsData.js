@@ -40,45 +40,45 @@ export const projectsData = [
     demo: "http://jamming-cc.surge.sh/",
     image: three,
   },
-
   {
     id: 4,
-    projectName: "Flights and Adventures",
-    projectDesc: "Website for paragliding and extreme sports.",
-    tags: ["Wordpress", "CSS", "jQuery"],
-    code: "https://github.com/jorkufrbg/Flights",
-    demo: "https://github.com/jorkufrbg/Wordborn-v2",
-    image: two,
-  },
-  {
-    id: 5,
-    projectName: "Wordborn",
-    projectDesc:
-      "This project is focused on teaching technical writing, public speaking and creative writing.",
-    tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
-    code: "https://github.com/jorkufrbg/Wordborn-v2",
-    demo: "https://wordborn.org/",
-    image: seven,
-  },
-  {
-    id: 6,
     projectName: "Studio Rubik",
     projectDesc:
       "Creative Agency for Video Production, Rebranding and UX/UI Design",
     tags: ["Wordpress", "SCSS", "Javascript", "Webpack"],
-    code: "#",
+    code: "",
     demo: "https://www.studiorubik.com/",
     image: one,
   },
   {
-    id: 7,
+    id: 5,
+    projectName: "Flights and Adventures",
+    projectDesc: "Website for paragliding and extreme sports.",
+    tags: ["Wordpress", "CSS", "jQuery"],
+    code: "",
+    demo: "http://flightsandadventures.bg/",
+    image: two,
+  },
+
+  {
+    id: 6,
     projectName: "Ido Design",
     projectDesc:
       "High-end wayfinding solutions, interior design branding and POSM for public interior and exterior commercial spaces.",
     tags: ["Python", "CSS", "JavaScript"],
-    code: "#",
+    code: "",
     demo: "https://ido.design/",
     image: eight,
+  },
+  {
+    id: 7,
+    projectName: "Wordborn",
+    projectDesc:
+      "This project is focused on teaching technical writing, public speaking and creative writing.",
+    tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
+    code: "",
+    demo: "https://wordborn.org/",
+    image: seven,
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ export const projectsData = [
     projectDesc:
       "Fast-track self-service tool for sorting out your healthcare and residency abroad or back home!",
     tags: ["React", "SCSS"],
-    code: "#",
+    code: "",
     demo: "https://www.whisphealth.com/",
     image: six,
   },
@@ -95,7 +95,7 @@ export const projectsData = [
     projectName: "Motoretta",
     projectDesc: "The first of its kind electric moped in Bulgaria.",
     tags: ["PHP", "jQuery", "SCSS"],
-    code: "#",
+    code: "",
     demo: "https://motorettagroup.com/",
     image: five,
   },
@@ -105,7 +105,7 @@ export const projectsData = [
     projectDesc:
       "A unique clothing brand combining natural fabrics and impeccable quality.",
     tags: ["PHP", "jQuery", "Bootstrap"],
-    code: "#",
+    code: "",
     demo: "https://www.aakasha.com/",
     image: four,
   },
@@ -115,7 +115,7 @@ export const projectsData = [
     projectDesc:
       "This website houses not only examples of contemporary and national revival art, but also the country's largest collection of medieval paintings.",
     tags: ["Flutter", "React"],
-    code: "#",
+    code: "",
     demo: "https://nationalgallery.bg/",
     image: three,
   },
