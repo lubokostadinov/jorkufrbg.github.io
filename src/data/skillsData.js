@@ -1,5 +1,5 @@
 export const skillsData = [
-  "HTML",
+  // "HTML",
   "PHP",
   "Wordpress",
   "Javascript",
@@ -8,7 +8,7 @@ export const skillsData = [
   "Next JS",
   "Typescript",
   "Webpack",
-  "CSS",
+  "SCSS",
   "Bootstrap",
   "MongoDB",
   "Firebase",
