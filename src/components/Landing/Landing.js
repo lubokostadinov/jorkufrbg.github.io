@@ -69,21 +69,21 @@ function Landing() {
           style={{ backgroundColor: theme.primary }}
         >
           <div className="lcl--content">
-            {socialsData.linkedIn && (
-              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
-                <FaLinkedin
-                  className="landing--social"
-                  style={{ color: theme.secondary }}
-                  aria-label="LinkedIn"
-                />
-              </a>
-            )}
             {socialsData.github && (
               <a href={socialsData.github} target="_blank" rel="noreferrer">
                 <FaGithub
                   className="landing--social"
                   style={{ color: theme.secondary }}
                   aria-label="GitHub"
+                />
+              </a>
+            )}
+            {socialsData.linkedIn && (
+              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
+                <FaLinkedin
+                  className="landing--social"
+                  style={{ color: theme.secondary }}
+                  aria-label="LinkedIn"
                 />
               </a>
             )}
@@ -114,7 +114,7 @@ function Landing() {
           <div className="lcr--content" style={{ color: theme.tertiary }}>
             <h6>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
-            <p>{headerData.desciption}</p>
+            <p>{headerData.description}</p>
 
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (

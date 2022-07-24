@@ -2,7 +2,7 @@ export const experienceData = [
   {
     id: 1,
     company: "Freelance",
-    jobtitle: "Web Developer - Wordpres Custom Themes",
+    jobtitle: "Web Developer - Custom Wordpress Themes",
     startYear: "2021",
     endYear: "Present",
   },

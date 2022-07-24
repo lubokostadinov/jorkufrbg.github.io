@@ -174,10 +174,10 @@ function Contacts() {
               </div>
               <div className="input-container">
                 <label htmlFor="Email" className={classes.label}>
-                  Email
+                  E-mail
                 </label>
                 <input
-                  placeholder="John@doe.com"
+                  placeholder="eg. John@doe.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type="email"
@@ -190,7 +190,7 @@ function Contacts() {
                   Message
                 </label>
                 <textarea
-                  placeholder="Type your message...."
+                  placeholder="Drop me a line...."
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   type="text"

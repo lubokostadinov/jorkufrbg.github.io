@@ -12,8 +12,9 @@ import sample from "../assets/svg/projects/ten.svg";
 export const projectsData = [
   {
     id: 1,
-    projectName: "React Meetups Application",
-    projectDesc: "Browse a huge list of highly active React meetups!",
+    projectName: "React Meetups",
+    projectDesc:
+      "Browse and expand a huge list of highly active React meetups!",
     tags: ["React", "Next.js", "MongoDB"],
     code: "https://github.com/jorkufrbg/next-meetups",
     demo: "https://meetups-nextjs-l8uk1bzc7-jorkufrbg.vercel.app/",
@@ -21,8 +22,9 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: "React Quotes Application",
-    projectDesc: "Simple React App for cool quotes",
+    projectName: "React Quotes",
+    projectDesc:
+      "React application for storing memorable quotes I came across.",
     tags: ["React", "Router", "Firebase"],
     code: "https://github.com/jorkufrbg/React-Quotes-App",
     demo: "https://quotes-app-a62b0.web.app/quotes",
@@ -30,8 +32,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Jamming React App",
-    projectDesc: "Simple App to search and add music using the Spotify API",
+    projectName: "React Jamming",
+    projectDesc:
+      "Simple application for searching and adding music to playlists, which utilizes the powerful Spotify API",
     tags: ["React", "JavaScript", "Spotify API"],
     code: "https://github.com/jorkufrbg/Jamming-React",
     demo: "http://jamming-cc.surge.sh/",
@@ -40,8 +43,8 @@ export const projectsData = [
 
   {
     id: 4,
-    projectName: "Flights And Adventures",
-    projectDesc: "Website for paragliding and extreme sports",
+    projectName: "Flights and Adventures",
+    projectDesc: "Website for paragliding and extreme sports.",
     tags: ["Wordpress", "CSS", "jQuery"],
     code: "https://github.com/jorkufrbg/Flights",
     demo: "https://github.com/jorkufrbg/Wordborn-v2",
@@ -51,7 +54,7 @@ export const projectsData = [
     id: 5,
     projectName: "Wordborn",
     projectDesc:
-      "This project is a focus on teaching technical writing, public speaking and creative writing",
+      "This project is focused on teaching technical writing, public speaking and creative writing.",
     tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
     code: "https://github.com/jorkufrbg/Wordborn-v2",
     demo: "https://wordborn.org/",
@@ -71,7 +74,7 @@ export const projectsData = [
     id: 7,
     projectName: "Ido Design",
     projectDesc:
-      "High-end wayfinding solutions, interior design branding and POSM solutions for public interior and exterior commercial spaces.",
+      "High-end wayfinding solutions, interior design branding and POSM for public interior and exterior commercial spaces.",
     tags: ["Python", "CSS", "JavaScript"],
     code: "#",
     demo: "https://ido.design/",
@@ -81,7 +84,7 @@ export const projectsData = [
     id: 8,
     projectName: "Whisp",
     projectDesc:
-      "Your fast-track self-service tool to sort out you healthcare and residency abroad or back home!",
+      "Fast-track self-service tool for sorting out your healthcare and residency abroad or back home!",
     tags: ["React", "SCSS"],
     code: "#",
     demo: "https://www.whisphealth.com/",
@@ -90,7 +93,7 @@ export const projectsData = [
   {
     id: 9,
     projectName: "Motoretta",
-    projectDesc: "https://motorettagroup.com/",
+    projectDesc: "The first of its kind electric moped in Bulgaria.",
     tags: ["PHP", "jQuery", "SCSS"],
     code: "#",
     demo: "https://motorettagroup.com/",
@@ -99,7 +102,8 @@ export const projectsData = [
   {
     id: 10,
     projectName: "Aakasha",
-    projectDesc: "A simple clothing brand",
+    projectDesc:
+      "A unique clothing brand combining natural fabrics and impeccable quality.",
     tags: ["PHP", "jQuery", "Bootstrap"],
     code: "#",
     demo: "https://www.aakasha.com/",
@@ -109,7 +113,7 @@ export const projectsData = [
     id: 11,
     projectName: "Sofia Art Gallery",
     projectDesc:
-      "The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution",
+      "This website houses not only examples of contemporary and national Revival art, but also the country's largest collection of medieval paintings.",
     tags: ["Flutter", "React"],
     code: "#",
     demo: "https://nationalgallery.bg/",
