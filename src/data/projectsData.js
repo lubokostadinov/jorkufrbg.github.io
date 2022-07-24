@@ -113,7 +113,7 @@ export const projectsData = [
     id: 11,
     projectName: "Sofia Art Gallery",
     projectDesc:
-      "This website houses not only examples of contemporary and national Revival art, but also the country's largest collection of medieval paintings.",
+      "This website houses not only examples of contemporary and national revival art, but also the country's largest collection of medieval paintings.",
     tags: ["Flutter", "React"],
     code: "#",
     demo: "https://nationalgallery.bg/",
