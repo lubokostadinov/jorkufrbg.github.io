@@ -406,6 +406,7 @@ export const customBlueDark = {
   tertiary80: "#eaeaeacc",
   tertiary70: "#eaeaeab3",
   tertiary50: "#eaeaea80",
+  orange: "#f56539",
   aboutimg1: lightBlueThemeboy,
   aboutimg2: redThemegirl,
   eduimg: eduLightBlue,
