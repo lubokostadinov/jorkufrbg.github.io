@@ -47,11 +47,12 @@
 .landing--social {
   font-size: 35px;
   margin: 0 1rem;
-  transition: transform 0.5s;
+  transition: all 0.3s ease-in-out;
 }
 
 .landing--social:hover {
   transform: scale(1.2);
+  color: #eaeaea !important;
 }
 
 .landing--container-right {

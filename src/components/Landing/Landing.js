@@ -25,7 +25,7 @@ function Landing() {
       height: "50px",
       fontFamily: "var(--primaryFont)",
       border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
+      transition: "300ms ease-in-out",
       "&:hover": {
         backgroundColor: theme.tertiary,
         color: theme.secondary,
@@ -47,7 +47,7 @@ function Landing() {
       fontWeight: "500",
       fontFamily: "var(--primaryFont)",
       border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
+      transition: "300ms ease-in-out",
       "&:hover": {
         backgroundColor: theme.secondary,
         color: theme.tertiary,

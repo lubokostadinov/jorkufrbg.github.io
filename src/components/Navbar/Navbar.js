@@ -35,7 +35,7 @@ function Navbar() {
       color: theme.tertiary,
       cursor: "pointer",
       transform: "translateY(-10px)",
-      transition: "color 0.3s",
+      transition: "color 300ms ease-in-out",
       "&:hover": {
         color: theme.primary,
       },
@@ -69,7 +69,7 @@ function Navbar() {
       position: "absolute",
       right: 40,
       top: 40,
-      transition: "color 0.2s",
+      transition: "color 300ms ease-in-out",
       "&:hover": {
         color: theme.tertiary,
       },
@@ -92,7 +92,7 @@ function Navbar() {
       boxSizing: "border-box",
       border: "2px solid",
       borderColor: theme.primary,
-      transition: "background-color 0.2s, color 0.2s",
+      transition: "background-color 300ms,color 300ms, ease-in-out",
       "&:hover": {
         background: theme.primary,
         color: theme.secondary,

@@ -56,16 +56,16 @@
 .skill--box > img {
   height: 50px;
   pointer-events: none;
-  filter: grayscale(1) invert(0);
+  /* filter: contrast(0%) brightness(0%); */
   transition: all 300ms ease-in-out;
 }
 
-.skill--box > .skillBoxInvertedStyle {
+/* .skill--box > .skillBoxInvertedStyle {
   filter: grayscale(1) invert(1);
-}
+} */
 
 .skill--box:hover > img {
-  filter: grayscale(0%) invert(0);
+  /* filter: grayscale(0%) invert(0); */
   transition: all 300ms ease-in-out;
 }
 
