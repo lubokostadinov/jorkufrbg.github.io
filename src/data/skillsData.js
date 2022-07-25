@@ -1,26 +1,31 @@
 export const skillsData = [
   // "HTML",
-  "PHP",
-  "Wordpress",
   "Javascript",
+  "Typescript",
   "React",
   "Redux",
   "Next JS",
-  "Typescript",
   "Webpack",
+
+  "PHP",
+  "Wordpress",
+
   "SCSS",
   "Bootstrap",
+
   "MongoDB",
   "Firebase",
+
   "Git",
   "Ubuntu",
+
   "MaterialUI",
+
   "Figma",
   "Photoshop",
   "Illustrator",
   "Lightroom",
   "Premiere Pro",
-  "After Effects",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

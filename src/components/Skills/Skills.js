@@ -12,7 +12,7 @@ function Skills() {
 
   const skillBoxStyle = {
     backgroundColor: theme.secondary,
-    boxShadow: `0px 0px 30px ${theme.primary30}`,
+    boxShadow: `0px 0px 30px ${theme.primary}`,
   };
 
   return (
@@ -37,7 +37,13 @@ function Skills() {
           >
             {skillsData.map((skill, id) => (
               <div className="skill--box" key={id} style={skillBoxStyle}>
-                <img src={skillsImage(skill)} alt={skill} />
+                <img
+                  className={
+                    skillsImage(skill).isInverted ? "skillBoxInvertedStyle" : ""
+                  }
+                  src={skillsImage(skill).skill}
+                  alt={skill}
+                />
                 <h3 style={{ color: theme.tertiary }}>{skill}</h3>
               </div>
             ))}
