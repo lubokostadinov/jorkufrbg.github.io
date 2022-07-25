@@ -6,5 +6,5 @@ export const aboutData = {
     "For the last year I have been working on freelance projects and improving my developer skills to the next level. Currently I'm focused on React.js and related tools, such as Redux and Next.js",
   description3:
     "Usually I spend my leisure hours doing extreme sports and playing video games. I'm committed to learning and exploring new frontiers.",
-  image: 2,
+  image: 1,
 };

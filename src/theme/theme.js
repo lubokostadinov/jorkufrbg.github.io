@@ -1,5 +1,6 @@
 /* eslint-disable */
 import {
+  lightBlueThemeboy,
   blueThemegirl,
   blueThemeboy,
   bwThemeboy,
@@ -26,6 +27,7 @@ import {
   eduYellow,
   expBlack,
   expBlue,
+  expLightBlue,
   expGreen,
   expOrange,
   expPink,
@@ -40,6 +42,8 @@ import {
   contactsPurple,
   contactsRed,
   contactsYellow,
+  eduLightBlue,
+  contactsLightBlue,
 } from "./images";
 
 export const greenThemeLight = {
@@ -402,9 +406,9 @@ export const customBlueDark = {
   tertiary80: "#eaeaeacc",
   tertiary70: "#eaeaeab3",
   tertiary50: "#eaeaea80",
-  aboutimg1: redThemeboy,
+  aboutimg1: lightBlueThemeboy,
   aboutimg2: redThemegirl,
-  eduimg: eduRed,
-  expimg: expRed,
-  contactsimg: contactsRed,
+  eduimg: eduLightBlue,
+  expimg: expLightBlue,
+  contactsimg: contactsLightBlue,
 };
