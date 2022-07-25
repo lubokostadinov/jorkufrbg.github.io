@@ -56,7 +56,7 @@ function ProjectPage() {
       cursor: "pointer",
       transition: "all 0.3s ease-in-out",
       "&:hover": {
-        color: theme.tertiary,
+        color: theme.orange,
         transform: "scale(1.1)",
       },
       [t.breakpoints.down("sm")]: {

@@ -17,17 +17,19 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
       borderRadius: 50,
       border: `2px solid ${theme.tertiary}`,
       color: theme.tertiary,
-      transition: "all 0.2s",
+      transition: "  all 300ms ease-in-out;",
       "&:hover": {
-        backgroundColor: theme.secondary,
-        color: theme.primary,
+        // backgroundColor: theme.secondary,
+        color: theme.orange,
+        borderColor: theme.orange,
         transform: "scale(1.1)",
         border: `2px solid ${theme.secondary}`,
+        transition: "all 300ms ease-in-out;",
       },
     },
     icon: {
       fontSize: "1.1rem",
-      transition: "all 0.2s",
+      transition: " transition: all 300ms ease-in-out;",
       "&:hover": {},
     },
     demoBtnSvg: {
