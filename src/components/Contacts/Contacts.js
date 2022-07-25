@@ -42,7 +42,7 @@ function Contacts() {
       color: `${theme.tertiary}`,
       fontFamily: "var(--primaryFont)",
       fontWeight: 500,
-      transition: "border 0.2s ease-in-out",
+      transition: "border 300ms ease-in-out",
       "&:focus": {
         border: `4px solid ${theme.primary600}`,
       },
@@ -53,7 +53,7 @@ function Contacts() {
       color: `${theme.tertiary}`,
       fontFamily: "var(--primaryFont)",
       fontWeight: 500,
-      transition: "border 0.2s ease-in-out",
+      transition: "border 300ms ease-in-out",
       "&:focus": {
         border: `4px solid ${theme.primary600}`,
       },
@@ -78,7 +78,7 @@ function Contacts() {
       fontSize: "21px",
       backgroundColor: theme.primary,
       color: theme.secondary,
-      transition: "250ms ease-in-out",
+      transition: "300ms ease-in-out",
       "&:hover": {
         transform: "scale(1.1)",
         color: theme.secondary,
@@ -95,7 +95,7 @@ function Contacts() {
       alignItems: "center",
       justifyContent: "center",
       fontSize: "23px",
-      transition: "250ms ease-in-out",
+      transition: "300ms ease-in-out",
       flexShrink: 0,
       "&:hover": {
         transform: "scale(1.1)",
@@ -106,7 +106,7 @@ function Contacts() {
     submitBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
-      transition: "250ms ease-in-out",
+      transition: "300ms ease-in-out",
       "&:hover": {
         transform: "scale(1.08)",
         color: theme.secondary,
