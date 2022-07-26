@@ -45,10 +45,10 @@ function ProjectPage() {
       },
     },
     home: {
-      color: theme.primary,
+      color: theme.secondary,
       position: "absolute",
-      top: "4.8rem",
-      left: "3.5rem",
+      top: "10vh",
+      left: "4rem",
       padding: "7px",
       borderRadius: "50%",
       boxSizing: "content-box",
@@ -76,12 +76,12 @@ function ProjectPage() {
         className="projectPage-header"
         style={{ backgroundColor: theme.primary }}
       >
-        <h1 style={{ color: theme.secondary }}>Projects</h1>
-      </div>
-      <div className="projectPage-container">
         <Link to="/">
           <AiOutlineHome className={classes.home} />
         </Link>
+        <h1 style={{ color: theme.secondary }}>Projects</h1>
+      </div>
+      <div className="projectPage-container">
         <div className="projectPage-search">
           <input
             type="text"

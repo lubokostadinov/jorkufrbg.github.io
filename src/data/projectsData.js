@@ -1,14 +1,3 @@
-// import one from "../assets/svg/projects/one.svg";
-// import two from "../assets/svg/projects/two.svg";
-// import three from "../assets/svg/projects/three.svg";
-// import four from "../assets/svg/projects/four.svg";
-// import five from "../assets/svg/projects/five.svg";
-// import six from "../assets/svg/projects/six.svg";
-// import seven from "../assets/svg/projects/seven.svg";
-// import eight from "../assets/svg/projects/eight.svg";
-// import ten from "../assets/svg/projects/eight.svg";
-// import sample from "../assets/svg/projects/ten.svg";
-
 import meetups from "../assets/svg/projects/meetups.svg";
 import quotes from "../assets/svg/projects/quotes.svg";
 import jamming from "../assets/svg/projects/jamming.svg";
@@ -20,6 +9,9 @@ import whisp from "../assets/svg/projects/whisp.svg";
 import motoretta from "../assets/svg/projects/motoretta.svg";
 import aakasha from "../assets/svg/projects/aakasha.svg";
 import artGallery from "../assets/svg/projects/artGallery.svg";
+import hearteum from "../assets/svg/projects/hearteum.svg";
+import plygear from "../assets/svg/projects/plygear.svg";
+import michael from "../assets/svg/projects/michael.svg";
 
 export const projectsData = [
   {
@@ -27,7 +19,7 @@ export const projectsData = [
     projectName: "React Meetups",
     projectDesc:
       "Browse and expand a huge list of highly active React meetups!",
-    tags: ["React", "Next.js", "MongoDB"],
+    tags: ["React", "Next", "MongoDB"],
     code: "https://github.com/jorkufrbg/next-meetups",
     demo: "https://meetups-nextjs-l8uk1bzc7-jorkufrbg.vercel.app/",
     image: meetups,
@@ -57,7 +49,7 @@ export const projectsData = [
     projectName: "Studio Rubik",
     projectDesc:
       "Creative Agency for Video Production, Rebranding and UX/UI Design",
-    tags: ["Wordpress", "SCSS", "Javascript", "Webpack"],
+    tags: ["Wordpress", "Javascript", "SCSS", "Webpack"],
     code: "",
     demo: "https://www.studiorubik.com/",
     image: rubik,
@@ -96,7 +88,7 @@ export const projectsData = [
     projectName: "Whisp",
     projectDesc:
       "Fast-track self-service tool for sorting out your healthcare and residency abroad or back home!",
-    tags: ["React", "SCSS"],
+    tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
     code: "",
     demo: "https://www.whisphealth.com/",
     image: whisp,
@@ -125,16 +117,47 @@ export const projectsData = [
     projectName: "Sofia Art Gallery",
     projectDesc:
       "This website houses not only examples of contemporary and national revival art, but also the country's largest collection of medieval paintings.",
-    tags: ["Flutter", "React"],
+    tags: ["SCSS", "jQuery"],
     code: "",
     demo: "https://nationalgallery.bg/",
     image: artGallery,
   },
+  {
+    id: 12,
+    projectName: "Michael Cohen Personal Website",
+    projectDesc:
+      "Michael Harris Cohen’s stories have been published in numerous magazines and anthologies.",
+    tags: ["HTML", "SCSS", "jQuery"],
+    code: "https://github.com/jorkufrbg/Michael-Harris-Website",
+    demo: "https://www.michaelharriscohen.net/",
+    image: michael,
+  },
+  {
+    id: 13,
+    projectName: "PlyGear",
+    projectDesc:
+      "PlyGear is a design studio and workshop for tailor-made furniture units made exclusively from plywood",
+    tags: ["HTML", "SCSS", "JavaScript"],
+    code: "",
+    demo: "https://plygear.com/",
+    image: plygear,
+  },
+  {
+    id: 14,
+    projectName: "Hearteum",
+    projectDesc:
+      "Hearteum is a utility-payment solution on the Blockchain that stimulates commerce to improve customer value.",
+    tags: ["HTML", "SCSS", "JavaScript", "Webpack"],
+    code: "",
+    demo: "https://hearteum.studiorubik.com/",
+    image: hearteum,
+  },
 ];
 
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
+/*
+    Do not remove any fields.
+    Leave it blank instead as shown below
+*/
 /* 
 {
     id: 1,
