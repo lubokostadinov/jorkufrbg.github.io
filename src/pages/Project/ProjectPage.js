@@ -47,13 +47,14 @@ function ProjectPage() {
     home: {
       color: theme.secondary,
       position: "absolute",
-      top: "10vh",
+      top: "50%",
       left: "4rem",
       padding: "7px",
       borderRadius: "50%",
       boxSizing: "content-box",
       fontSize: "2.5rem",
       cursor: "pointer",
+      transform: "translateY(-50%)",
       transition: "all 0.3s ease-in-out",
       "&:hover": {
         color: theme.tertiary,

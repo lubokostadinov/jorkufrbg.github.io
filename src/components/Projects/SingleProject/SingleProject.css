@@ -108,3 +108,9 @@
   word-break: break-word;
   line-height: 100%;
 }
+
+@media screen and (max-width: 992px) {
+  .singleProject {
+    flex: 33.3% 1;
+  }
+}

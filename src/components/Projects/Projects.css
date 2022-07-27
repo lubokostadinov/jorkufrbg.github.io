@@ -81,15 +81,33 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
+  .projects {
+    padding: 2rem;
+  }
+  .projects--bodyContainer {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .projects {
+    padding: 0 2rem;
+  }
+
   .projects--bodyContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center;
+    width: 100%; */
+    gap: 2rem;
+  }
+  .projects--viewAll {
     justify-content: center;
-    width: 100%;
+  }
+  .projects--viewAll a button {
+    width: 225px;
+    padding-left: 5rem;
   }
 }
 

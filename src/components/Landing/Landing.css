@@ -111,6 +111,7 @@
   }
   .lcr--content {
     width: 50%;
+    margin-right: 5rem;
   }
   .lcr--content h6 {
     font-size: 1.1rem;
@@ -121,18 +122,18 @@
   }
 
   .lcr--content p {
-    margin-top: 0.3rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
+    /* margin-top: 0.3rem; */
+    /* margin-bottom: 1rem;
+    font-weight: 500; */
     font-size: 1rem;
   }
 
   .lcr-buttonContainer {
-    margin-top: 1rem;
+    /* margin-top: 1rem;
     flex-direction: column;
-    width: 200px;
-    height: 120px;
     align-items: flex-start;
+    height: 120px; */
+    width: auto;
   }
 }
 

@@ -23,10 +23,10 @@
   color: #f56539;
   transform: scale(1.1);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
   .backToTop {
-    right: -10px;
-    bottom: 50px;
+    right: 2rem;
+    /* bottom: 50px; */
     font-size: 2.75rem;
   }
 }

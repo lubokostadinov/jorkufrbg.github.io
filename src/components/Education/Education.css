@@ -103,11 +103,24 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
+  .education-description {
+    margin-left: 2rem;
+  }
+  .education-details > h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .education-description {
+    padding: 2rem 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .education {
     min-height: 100%;
+    padding: 2rem;
   }
   .education-image {
     display: none;

@@ -189,7 +189,21 @@
   .contacts--container {
     padding: 2rem 4rem;
     width: 90%;
-    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contacts--container {
+    padding: 2rem 0;
+  }
+
+  .contacts-details {
+    flex: 0.6 1;
+  }
+
+  .personal-details,
+  .socialmedia-icons {
+    margin-left: 2rem;
   }
 }
 
@@ -199,18 +213,35 @@
   }
   .contacts--container {
     width: 100%;
-    margin-top: 1rem;
+    width: 90%;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
   }
   .contacts--container > h1 {
     font-size: 3rem;
     margin: 0 0 1.2rem 0;
   }
+  .contacts-body {
+    padding: 0;
+  }
   .contacts-details {
-    padding-left: 4rem;
+    flex: 0.5 1;
+    align-items: center;
+  }
+  .personal-details {
+    justify-content: center;
   }
   .personal-details p {
     margin-left: 1rem;
     font-size: 1rem;
+  }
+
+  .socialmedia-icons {
+    justify-content: center;
+    gap: 3rem;
+  }
+  .form-input {
+    margin-bottom: 1rem;
   }
 }
 

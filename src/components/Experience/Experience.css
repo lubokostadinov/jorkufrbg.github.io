@@ -105,11 +105,27 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
+  .experience-description {
+    padding: 2rem 0;
+  }
+  .experience-image {
+    margin-left: 3%;
+  }
+  .experience-details > h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .experience-image {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .experience {
     min-height: 100%;
+    padding: 2rem 0;
   }
   .experience-image {
     display: none;
@@ -117,6 +133,7 @@
   .experience-description {
     flex: 1;
     margin: auto;
+    pad: 2rem 0;
   }
   .experience-description > h1 {
     font-size: 3.2rem;
