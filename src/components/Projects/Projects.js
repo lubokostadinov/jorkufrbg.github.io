@@ -16,10 +16,10 @@ function Projects() {
     viewAllBtn: {
       color: theme.tertiary,
       backgroundColor: theme.primary,
-      transition: "color 0.2s",
+      transition: "all 300ms ease-in-out",
       "&:hover": {
-        color: theme.orange,
-        backgroundColor: theme.primary,
+        color: theme.secondary,
+        backgroundColor: theme.orange,
       },
     },
     viewArr: {
