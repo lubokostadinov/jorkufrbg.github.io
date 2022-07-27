@@ -130,13 +130,19 @@
     margin: auto;
   }
   .education-description > h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   .education-card {
     width: 100%;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .education {
+    padding: 0 2rem 2rem 2rem;
   }
 }
 

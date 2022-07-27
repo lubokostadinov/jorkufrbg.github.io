@@ -101,10 +101,10 @@
   }
   .skillsContainer {
     /* padding: 1rem; */
-    margin: 1rem 0;
+    margin: 0 auto 2rem auto;
   }
   .skillsHeader h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   .skill--box {
     width: 150px;
@@ -120,6 +120,11 @@
   .skill--box h3 {
     font-size: 20px;
     margin-top: 1rem;
+  }
+}
+@media (max-width: 920px) {
+  .marquee {
+    padding: 1rem 0;
   }
 }
 

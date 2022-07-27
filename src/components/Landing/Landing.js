@@ -52,9 +52,9 @@ function Landing() {
         backgroundColor: theme.orange,
         border: `3px solid ${theme.orange}`,
       },
-      [t.breakpoints.down("sm")]: {
-        display: "none",
-      },
+      // [t.breakpoints.down("sm")]: {
+      //   display: "none",
+      // },
     },
   }));
 

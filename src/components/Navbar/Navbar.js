@@ -41,6 +41,7 @@ function Navbar() {
       },
       [t.breakpoints.down("sm")]: {
         fontSize: "2.5rem",
+        color: theme.tertiary,
       },
       [t.breakpoints.down("xs")]: {
         fontSize: "2rem",

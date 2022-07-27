@@ -132,12 +132,24 @@
   }
 
   .about-description > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .about-img > img {
     width: 250px;
     flex: 0.4;
+  }
+}
+
+@media (max-width: 920px) {
+  .about {
+    height: auto;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-description {
+    padding: 4rem 2rem 2rem 2rem;
   }
 }
 

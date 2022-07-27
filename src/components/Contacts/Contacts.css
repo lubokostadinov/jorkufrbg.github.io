@@ -251,7 +251,7 @@
     margin-bottom: 30px;
   }
   .contacts--container {
-    padding: 2rem;
+    /* padding: 2rem; */
     margin-top: 0rem;
     align-items: center;
   }
@@ -261,9 +261,9 @@
     align-items: center;
   }
   .contacts-form {
-    display: flex;
+    /* display: flex; */
     flex: 1;
-    width: 80%;
+    /* width: 80%; */
   }
 
   .form-input {
@@ -272,23 +272,40 @@
   .contacts-form form {
     align-items: flex-end;
   }
+
   .contacts-details {
     padding-left: 0rem;
-    padding: 1rem;
-    align-items: center;
-    margin-top: 2rem;
+    padding: 1rem 0;
+    align-items: baseline;
+    margin-top: 5rem;
+  }
+  .contacts-details > :nth-child(1) {
+    order: 2;
+  }
+  .contacts-details > :nth-child(2) {
+    order: 3;
+  }
+  .contacts-details > :nth-child(3) {
+    order: 1;
+  }
+  .contacts-details > :nth-child(4) {
+    order: 4;
   }
   .socialmedia-icons {
-    width: 100%;
-    gap: 1.5rem;
-    margin-top: 2rem;
+    width: unset;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin: 0 auto;
+    justify-content: center;
   }
   .personal-details {
-    margin-bottom: 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    width: unset;
   }
   .personal-details p {
-    margin-left: 1.2rem;
-    width: 95%;
+    margin-left: 1.5rem;
+    width: 100%;
   }
 }
 

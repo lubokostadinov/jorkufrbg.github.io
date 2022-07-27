@@ -133,10 +133,10 @@
   .experience-description {
     flex: 1;
     margin: auto;
-    pad: 2rem 0;
+    pad: 3rem 2rem;
   }
   .experience-description > h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   .experience-card {
     width: 100%;
