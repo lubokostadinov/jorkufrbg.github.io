@@ -70,6 +70,11 @@
   padding-left: 3rem;
 }
 
+.projects--viewAll a button:hover > svg {
+  color: var(--orange);
+  background-color: var(--black);
+}
+
 @media (min-width: 992px) and (max-width: 1380px) {
 }
 

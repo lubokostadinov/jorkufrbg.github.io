@@ -18,7 +18,7 @@ function Projects() {
       backgroundColor: theme.primary,
       transition: "color 0.2s",
       "&:hover": {
-        color: theme.secondary,
+        color: theme.orange,
         backgroundColor: theme.primary,
       },
     },

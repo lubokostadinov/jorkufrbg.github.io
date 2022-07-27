@@ -393,7 +393,7 @@ export const yellowThemeDark = {
 
 export const customBlueDark = {
   type: "dark",
-  primary: " #00a0e3",
+  primary: "#00a0e3",
   primary400: "#00a0e3",
   primary600: "#00a0e3",
   primary80: "#00a0e3cc",
