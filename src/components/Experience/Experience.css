@@ -37,7 +37,15 @@
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.5rem;
-  transition: background-color 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.experience-card:hover .expcard-img {
+  background-color: var(--orange) !important;
+}
+
+.experience-card:hover h6 {
+  color: var(--orange) !important;
 }
 
 .expcard-img {
@@ -49,6 +57,7 @@
   justify-content: center;
   flex-shrink: 0;
   align-self: center;
+  transition: all 300ms ease-in-out;
 }
 
 .expcard-img > img {
@@ -66,6 +75,7 @@
   font-size: 0.85rem;
   font-weight: 700;
   /* margin-bottom: 0.5rem; */
+  transition: all 300ms ease-in-out;
 }
 
 .experience-details > h4 {
