@@ -7,15 +7,31 @@ import "./BackToTop.css";
 
 function BackToTop() {
   const [visible, setVisible] = useState(false);
+  const [color, setColor] = useState(false);
 
   const { theme } = useContext(ThemeContext);
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
+
     if (scrolled > 300) {
       setVisible(true);
     } else if (scrolled <= 300) {
       setVisible(false);
+    }
+  };
+
+  const toggleColor = () => {
+    let documentHeight = document.body.scrollHeight;
+    let currentScroll = window.scrollY + window.innerHeight;
+
+    let modifier = 200;
+    if (currentScroll + modifier > documentHeight) {
+      console.log("Orange");
+      setColor(true);
+    } else {
+      console.log("Normal");
+      setColor(false);
     }
   };
 
@@ -27,6 +43,7 @@ function BackToTop() {
   };
 
   window.addEventListener("scroll", toggleVisible);
+  window.addEventListener("scroll", toggleColor);
 
   const useStyles = makeStyles(() => ({
     icon: {
@@ -41,7 +58,11 @@ function BackToTop() {
 
   return (
     <div style={{ display: visible ? "inline" : "none" }} className="backToTop">
-      <button onClick={scrollToTop} aria-label="Back to top">
+      <button
+        className={color ? "orange" : ""}
+        onClick={scrollToTop}
+        aria-label="Back to top"
+      >
         <IoIosArrowDropupCircle className={classes.icon} />
       </button>
     </div>
