@@ -65,7 +65,7 @@ function Navbar() {
       fontSize: "2rem",
       fontWeight: "bold",
       cursor: "pointer",
-      color: theme.secondary,
+      color: theme.primary,
       position: "absolute",
       right: 40,
       top: 40,
@@ -92,10 +92,10 @@ function Navbar() {
       boxSizing: "border-box",
       border: "2px solid",
       borderColor: theme.primary,
-      transition: "background-color 300ms,color 300ms, ease-in-out",
+      transition: "all 300ms, ease-in-out",
       "&:hover": {
-        background: theme.primary,
-        color: theme.secondary,
+        color: theme.orange,
+        borderColor: theme.orange,
       },
       [t.breakpoints.down("sm")]: {
         width: "100%",
