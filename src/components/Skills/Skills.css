@@ -3,8 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 60vh;
-  padding: 2.5rem 0 2rem 0;
+  /* min-height: 60vh; */
+  min-height: 70vh;
+  /* padding: 2.5rem 0 2rem 0; */
+  padding: 0 0 2rem 0;
 }
 
 .skillsHeader {
@@ -26,7 +28,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 3.5rem;
+  /* margin-top: 3.5rem; */
 }
 
 .skill--scroll {
@@ -83,13 +85,13 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
-  .skills {
+  /* .skills {
     padding: 2rem 0 1rem 0;
-  }
-  .skillsContainer {
+  } */
+  /* .skillsContainer {
     padding: 1.5rem 0 1.5rem 0;
     margin-top: 1.5rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 992px) {
