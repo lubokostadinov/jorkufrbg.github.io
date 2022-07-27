@@ -32,12 +32,12 @@ function Navbar() {
   const useStyles = makeStyles((t) => ({
     navMenu: {
       fontSize: "2.5rem",
-      color: theme.tertiary,
+      color: theme.primary,
       cursor: "pointer",
       transform: "translateY(-10px)",
       transition: "color 300ms ease-in-out",
       "&:hover": {
-        color: theme.primary,
+        color: theme.orange,
       },
       [t.breakpoints.down("sm")]: {
         fontSize: "2.5rem",
@@ -65,13 +65,13 @@ function Navbar() {
       fontSize: "2rem",
       fontWeight: "bold",
       cursor: "pointer",
-      color: theme.primary,
+      color: theme.secondary,
       position: "absolute",
       right: 40,
       top: 40,
       transition: "color 300ms ease-in-out",
       "&:hover": {
-        color: theme.tertiary,
+        color: theme.orange,
       },
       [t.breakpoints.down("sm")]: {
         right: 20,

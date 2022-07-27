@@ -14,7 +14,7 @@ function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
 
   const useStyles = makeStyles((t) => ({
-    resumeBtn: {
+    contactBtn: {
       color: theme.primary,
       borderRadius: "30px",
       textTransform: "inherit",
@@ -25,17 +25,17 @@ function Landing() {
       height: "50px",
       fontFamily: "var(--primaryFont)",
       border: `3px solid ${theme.primary}`,
-      transition: "300ms ease-in-out",
+      transition: "all 300ms ease-in-out",
       "&:hover": {
-        backgroundColor: theme.tertiary,
-        color: theme.secondary,
-        border: `3px solid ${theme.tertiary}`,
+        // backgroundColor: theme.orange,
+        color: theme.orange,
+        border: `3px solid ${theme.orange}`,
       },
       [t.breakpoints.down("sm")]: {
         width: "180px",
       },
     },
-    contactBtn: {
+    resumeBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
       borderRadius: "30px",
@@ -47,11 +47,10 @@ function Landing() {
       fontWeight: "500",
       fontFamily: "var(--primaryFont)",
       border: `3px solid ${theme.primary}`,
-      transition: "300ms ease-in-out",
+      transition: "all 300ms ease-in-out",
       "&:hover": {
-        backgroundColor: theme.secondary,
-        color: theme.tertiary,
-        border: `3px solid ${theme.tertiary}`,
+        backgroundColor: theme.orange,
+        border: `3px solid ${theme.orange}`,
       },
       [t.breakpoints.down("sm")]: {
         display: "none",
