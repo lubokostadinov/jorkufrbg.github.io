@@ -18,11 +18,11 @@ function Footer() {
     <div className="footer" style={{ backgroundColor: theme.secondary }}>
       <p style={{ color: theme.tertiary }}>
         Made with
-        <span style={{ margin: "0 0.5rem -1rem 0.5rem" }}>☕</span>
-        and
-        <span style={{ color: "#00a0e3", margin: "0 0.5rem -1rem 0.5rem" }}>
+        <span style={{ color: theme.orange, margin: "0 0.5rem -1rem 0.5rem" }}>
           ❤
         </span>
+        and
+        <span style={{ margin: "0 0.5rem -1rem 0.5rem" }}>☕</span>
       </p>
     </div>
   );

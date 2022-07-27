@@ -99,7 +99,6 @@ function Contacts() {
       "&:hover": {
         transform: "scale(1.1)",
         color: theme.secondary,
-        backgroundColor: theme.orange,
       },
     },
     submitBtn: {

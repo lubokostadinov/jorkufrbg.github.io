@@ -154,6 +154,9 @@
   margin-bottom: 2.5rem;
   margin-left: 7rem;
 }
+.personal-details:hover > div {
+  background-color: #f56539;
+}
 
 .personal-details p {
   margin-left: 1.5rem;

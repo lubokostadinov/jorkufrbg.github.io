@@ -19,6 +19,10 @@
   color: #f56539;
 }
 
+.backToTop button.orange:hover svg {
+  color: #f56539;
+  transform: scale(1.1);
+}
 @media screen and (max-width: 800px) {
   .backToTop {
     right: -10px;

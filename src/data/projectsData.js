@@ -48,7 +48,7 @@ export const projectsData = [
     id: 4,
     projectName: "Studio Rubik",
     projectDesc:
-      "Creative Agency for Video Production, Rebranding and UX/UI Design",
+      "Creative Agency for Video Production, Rebranding and UX/UI Design.",
     tags: ["Wordpress", "Javascript", "SCSS", "Webpack"],
     code: "",
     demo: "https://www.studiorubik.com/",
@@ -136,7 +136,7 @@ export const projectsData = [
     id: 13,
     projectName: "PlyGear",
     projectDesc:
-      "PlyGear is a design studio and workshop for tailor-made furniture units made exclusively from plywood",
+      "PlyGear is a design studio and workshop for tailor-made furniture units made exclusively from plywood.",
     tags: ["HTML", "SCSS", "JavaScript"],
     code: "",
     demo: "https://plygear.com/",
