@@ -67,6 +67,11 @@
   width: 100%;
 }
 
+.input-container:focus-within label {
+  transition: all 300ms ease-in-out;
+  color: var(--orange);
+}
+
 .form-input {
   height: 50px;
   box-sizing: border-box;

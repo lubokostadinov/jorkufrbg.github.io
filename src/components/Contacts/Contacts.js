@@ -44,7 +44,7 @@ function Contacts() {
       fontWeight: 500,
       transition: "border 300ms ease-in-out",
       "&:focus": {
-        border: `4px solid ${theme.primary600}`,
+        border: `4px solid ${theme.orange}`,
       },
     },
     message: {
@@ -55,7 +55,7 @@ function Contacts() {
       fontWeight: 500,
       transition: "border 300ms ease-in-out",
       "&:focus": {
-        border: `4px solid ${theme.primary600}`,
+        border: `4px solid ${theme.orange}`,
       },
     },
     label: {
@@ -78,11 +78,10 @@ function Contacts() {
       fontSize: "21px",
       backgroundColor: theme.primary,
       color: theme.secondary,
-      transition: "300ms ease-in-out",
+      transition: "all 300ms ease-in-out",
       "&:hover": {
         transform: "scale(1.1)",
-        color: theme.secondary,
-        backgroundColor: theme.tertiary,
+        backgroundColor: theme.orange,
       },
     },
     detailsIcon: {
@@ -95,12 +94,12 @@ function Contacts() {
       alignItems: "center",
       justifyContent: "center",
       fontSize: "23px",
-      transition: "300ms ease-in-out",
+      transition: "all 300ms ease-in-out",
       flexShrink: 0,
       "&:hover": {
         transform: "scale(1.1)",
         color: theme.secondary,
-        backgroundColor: theme.tertiary,
+        backgroundColor: theme.orange,
       },
     },
     submitBtn: {
@@ -109,8 +108,8 @@ function Contacts() {
       transition: "300ms ease-in-out",
       "&:hover": {
         transform: "scale(1.08)",
-        color: theme.secondary,
-        backgroundColor: theme.tertiary,
+        backgroundColor: theme.orange,
+        borderColor: theme.orange,
       },
     },
   }));
