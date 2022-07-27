@@ -109,7 +109,9 @@
   .lcl--content {
     margin: 2rem;
   }
-
+  .lcr--content {
+    width: 50%;
+  }
   .lcr--content h6 {
     font-size: 1.1rem;
   }
