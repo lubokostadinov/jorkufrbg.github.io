@@ -231,6 +231,30 @@
   }
 }
 
+@media (max-width: 920px) and (orientation: landscape) {
+  .contacts--container {
+    padding: 0 2rem;
+  }
+  .contacts-details,
+  .contacts-form {
+    flex: 1 1;
+  }
+
+  /* .personal-details {
+    margin-bottom: 1.5rem;
+  }
+  .personal-details:last-of-type {
+    margin-bottom: 1.5rem;
+  } */
+  .socialmedia-icons {
+    margin-top: 0;
+    margin-left: 3rem;
+  }
+  /* .form-input {
+    margin-bottom: 0;
+  } */
+}
+
 @media screen and (max-width: 800px) {
   .contacts--container h1 {
     font-size: 3rem;

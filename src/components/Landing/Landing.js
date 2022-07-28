@@ -31,9 +31,9 @@ function Landing() {
         color: theme.orange,
         border: `3px solid ${theme.orange}`,
       },
-      [t.breakpoints.down("sm")]: {
-        width: "180px",
-      },
+      // [t.breakpoints.down("sm")]: {
+      //   width: "180px",
+      // },
     },
     resumeBtn: {
       backgroundColor: theme.primary,

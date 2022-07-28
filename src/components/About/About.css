@@ -110,6 +110,7 @@
 @media screen and (max-width: 992px) {
   .about .line-styling {
     top: 20px;
+    width: 85%;
   }
 
   .about-body {
