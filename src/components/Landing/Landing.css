@@ -238,7 +238,7 @@
   }
 }
 
-@media (max-width: 920px) and (orientation: portrait) {
+@media only screen and (max-width: 920px) and (orientation: portrait) {
   .lcr-buttonContainer > a {
     margin: 0 1rem;
   }
