@@ -27,10 +27,8 @@ function BackToTop() {
 
     let modifier = 200;
     if (currentScroll + modifier > documentHeight) {
-      console.log("Orange");
       setColor(true);
     } else {
-      console.log("Normal");
       setColor(false);
     }
   };

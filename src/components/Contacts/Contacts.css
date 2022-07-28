@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-around;
   position: relative;
 }
 
@@ -18,18 +18,13 @@
 .contacts--container {
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start; */
+  align-items: flex-start;
   align-items: center;
   justify-content: flex-start;
-  /* padding: 2rem 6rem 3rem; */
-  /* padding: 2rem 6rem 3rem 6rem; */
-  /* width: 80%; */
-  width: 75%;
-  max-width: 1156px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  height: 100%;
-  padding-top: 8rem;
-  margin-top: 2rem;
+  padding: 0 6rem 0rem 6rem;
 }
 
 .contacts--container > h1 {
@@ -42,17 +37,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 100%;
-  /* padding: 2rem 6rem 3rem 6rem; */
-  padding: 2rem 0 3rem 0;
 }
 
 .contacts-form {
   display: flex;
-  /* flex: 0.4; */
   flex: 0.5;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .contacts-form form {
@@ -137,10 +129,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
-  /* flex: 0.6; */
-  flex: 0.5;
+  flex: 0.45 1;
   box-sizing: border-box;
-  /* padding-left: 7rem; */
   /* padding-left: 5rem; */
   margin-top: 1.2rem;
 }
@@ -152,7 +142,7 @@
   justify-content: flex-start;
   width: 100%;
   margin-bottom: 2.5rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 .personal-details:hover > div {
   background-color: #f56539;
@@ -176,7 +166,7 @@
   justify-content: flex-start;
   gap: 1.5rem;
   margin-top: 4rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {

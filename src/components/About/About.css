@@ -32,7 +32,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-top: 8rem;
+  /* padding-top: 8rem; */
+  padding-top: 10rem;
   height: fit-content;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .about-description > h2 {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   font-size: 3.5rem;
   font-family: var(--primaryFont);
 }
@@ -59,7 +60,7 @@
 }
 
 .about-img {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   pointer-events: none;
 }
 

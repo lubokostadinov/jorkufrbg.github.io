@@ -58,7 +58,6 @@ function ProjectPage() {
       transition: "all 0.3s ease-in-out",
       "&:hover": {
         color: theme.tertiary,
-        transform: "scale(1.1)",
       },
       [t.breakpoints.down("sm")]: {
         fontSize: "1.8rem",
