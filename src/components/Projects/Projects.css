@@ -161,9 +161,9 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
 }
 
-@media (min-width: 920px) and (orientation: portrait) {
+@media only screen and (min-width: 920px) and (orientation: portrait) {
   .projects {
     min-height: unset;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
   }
 }

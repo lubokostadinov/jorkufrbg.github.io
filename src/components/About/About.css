@@ -68,6 +68,22 @@
   flex: 0.5;
 }
 
+@media (min-width: 920px) and (orientation: portrait) {
+  .about {
+    min-height: unset;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 920px) and (orientation: portrait) {
+  .about {
+    min-height: unset;
+    /* padding-top: 5rem; */
+    padding-bottom: 5rem;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1380px) {
   /* .about {
     min-height: 85vh;
@@ -193,13 +209,5 @@
 
   .about-img > img {
     width: 200px;
-  }
-}
-
-@media (min-width: 920px) and (orientation: portrait) {
-  .about {
-    min-height: unset;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 }

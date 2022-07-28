@@ -209,6 +209,6 @@
 @media (min-width: 920px) and (orientation: portrait) {
   .experience {
     min-height: unset;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
   }
 }

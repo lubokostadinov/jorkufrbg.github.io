@@ -29,7 +29,9 @@
 a {
   text-decoration: none;
 }
-
+body iframe {
+  display: none !important;
+}
 /* scrollBar */
 
 ::-webkit-scrollbar {
