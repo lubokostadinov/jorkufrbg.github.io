@@ -84,9 +84,15 @@
   }
 }
 
-@media screen and (max-width: 702px) {
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .projectPage-container {
+    padding: 1rem;
+  }
+  .project-container {
+    margin-top: 0;
+  }
   .project-grid {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 

@@ -27,7 +27,6 @@ function Landing() {
       border: `3px solid ${theme.primary}`,
       transition: "all 300ms ease-in-out",
       "&:hover": {
-        // backgroundColor: theme.orange,
         color: theme.orange,
         border: `3px solid ${theme.orange}`,
       },

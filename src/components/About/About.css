@@ -166,6 +166,12 @@
   }
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .about-description > h2 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .about .line-styling .style-circle {
     width: 5px;

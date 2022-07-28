@@ -185,6 +185,12 @@
   }
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .experience-description > h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .experience-description > h1 {
     font-size: 2.5rem;

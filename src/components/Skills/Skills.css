@@ -143,6 +143,12 @@
   }
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .skillsHeader h2 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .skill--box {
     width: 135px;
