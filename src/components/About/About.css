@@ -196,3 +196,11 @@
     width: 200px;
   }
 }
+
+@media (min-width: 920px) and (orientation: portrait) {
+  .about {
+    min-height: unset;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

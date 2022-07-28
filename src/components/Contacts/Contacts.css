@@ -247,6 +247,12 @@
   }
 }
 
+@media (max-width: 920px) and (orientation: portrait) {
+  .contacts {
+    min-height: unset;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .contacts--container h1 {
     margin-bottom: 30px;
@@ -403,5 +409,15 @@
   }
   100% {
     transform: translateX(80px);
+  }
+}
+
+@media (min-width: 920px) and (orientation: portrait) {
+  .contacts {
+    min-height: unset;
+    padding-bottom: 5rem;
+  }
+  .socialmedia-icons {
+    margin-top: 0;
   }
 }

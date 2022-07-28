@@ -179,3 +179,10 @@
 
 @media only screen and (device-width: 768px) {
 }
+
+@media (min-width: 920px) and (orientation: portrait) {
+  .skills {
+    min-height: unset;
+    padding-bottom: 5rem;
+  }
+}

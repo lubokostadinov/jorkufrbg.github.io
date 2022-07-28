@@ -205,3 +205,10 @@
 
 @media only screen and (device-width: 768px) {
 }
+
+@media (min-width: 920px) and (orientation: portrait) {
+  .experience {
+    min-height: unset;
+    padding-bottom: 5rem;
+  }
+}

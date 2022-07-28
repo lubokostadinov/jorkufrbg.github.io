@@ -207,11 +207,11 @@
   } */
 }
 
-@media (max-width: 920px) and (orientation: landscape) {
+/* @media (max-width: 920px) and (orientation: landscape) {
   .lcr-buttonContainer > a {
     margin: 0 2rem;
   }
-}
+} */
 /* @media (max-width: 844px) {
 } */
 
@@ -235,5 +235,11 @@
     --img-size: 150px;
     left: 50%;
     top: 20%;
+  }
+}
+
+@media (max-width: 920px) and (orientation: portrait) {
+  .lcr-buttonContainer > a {
+    margin: 0 1rem;
   }
 }
