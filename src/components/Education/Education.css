@@ -109,11 +109,14 @@
   .education-details > h5 {
     font-size: 1rem;
   }
+  .education-image {
+    padding: 0;
+  }
 }
 
 @media (max-width: 1100px) {
   .education-description {
-    padding: 2rem 0;
+    padding: 2rem;
   }
 }
 

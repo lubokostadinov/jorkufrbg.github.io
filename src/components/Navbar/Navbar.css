@@ -28,6 +28,12 @@
 .navLink--container {
   margin-top: 5rem;
 }
+.navLink--container > div:last-child .makeStyles-drawerItem-44 {
+  margin-bottom: 0;
+}
+.navLink--container > div:first-child .makeStyles-drawerItem-44 {
+  margin-top: 0;
+}
 
 .drawer > .MuiBackdrop-root {
   background: rgba(33, 33, 33, 0.15) !important;

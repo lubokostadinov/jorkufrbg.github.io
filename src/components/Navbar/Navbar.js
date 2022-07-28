@@ -42,13 +42,16 @@ function Navbar() {
       [t.breakpoints.down("sm")]: {
         fontSize: "2.5rem",
         color: theme.tertiary,
+        "&:hover": {
+          color: theme.secondary,
+        },
       },
       [t.breakpoints.down("xs")]: {
         fontSize: "2rem",
       },
     },
     MuiDrawer: {
-      padding: "0em 1.8em",
+      padding: "0 1.8em",
       width: "14em",
       fontFamily: " var(--primaryFont)",
       fontStyle: " normal",
@@ -56,6 +59,7 @@ function Navbar() {
       fontSize: " 24px",
       background: theme.secondary,
       overflow: "hidden",
+      justifyContent: "center",
       borderTopRightRadius: "40px",
       borderBottomRightRadius: "40px",
       [t.breakpoints.down("sm")]: {
@@ -80,7 +84,7 @@ function Navbar() {
       },
     },
     drawerItem: {
-      margin: "2rem auto",
+      margin: "2rem auto 2rem auto",
       borderRadius: "78.8418px",
       background: theme.secondary,
       color: theme.primary,
@@ -99,9 +103,9 @@ function Navbar() {
         borderColor: theme.orange,
       },
       [t.breakpoints.down("sm")]: {
-        width: "100%",
+        width: "95%",
         padding: "0 25px",
-        height: "55px",
+        height: "45px",
       },
     },
     drawerLinks: {

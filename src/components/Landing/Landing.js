@@ -123,7 +123,7 @@ function Landing() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button className={classes.resumeBtn}>Download CV</Button>
+                  <Button className={classes.resumeBtn}>Get My CV</Button>
                 </a>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>

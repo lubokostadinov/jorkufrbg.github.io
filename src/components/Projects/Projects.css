@@ -9,13 +9,13 @@
   padding: 2rem 4rem;
 }
 
-.projects--header {
+/* .projects--header {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin: 1rem;
-}
+} */
 
 .projects--header h1 {
   margin-bottom: 2.5rem;
@@ -86,6 +86,9 @@
   .projects--bodyContainer {
     gap: 2rem;
   }
+  .projects--viewAll {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -106,6 +109,7 @@
   }
   .projects--viewAll {
     justify-content: center;
+    padding: 0;
   }
   .projects--viewAll a button {
     width: 225px;

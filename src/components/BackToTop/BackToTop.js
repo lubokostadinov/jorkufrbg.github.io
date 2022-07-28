@@ -48,7 +48,8 @@ function BackToTop() {
       fontSize: "3rem",
       color: theme.tertiary,
       transition: "all 0.3s ease-in-out",
-      "&:hover": { color: theme.orange },
+      opacity: "0.5",
+      "&:hover": { color: theme.orange, opacity: "0.8" },
     },
   }));
 

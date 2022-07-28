@@ -109,7 +109,8 @@
     padding: 2rem 0;
   }
   .experience-image {
-    margin-left: 3%;
+    margin-left: 2rem;
+    padding: 0;
   }
   .experience-details > h5 {
     font-size: 1rem;

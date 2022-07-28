@@ -45,22 +45,23 @@ function ProjectPage() {
       },
     },
     home: {
-      color: theme.secondary,
+      color: theme.tertiary,
       position: "absolute",
       top: "50%",
       left: "4rem",
       padding: "7px",
       borderRadius: "50%",
       boxSizing: "content-box",
-      fontSize: "2.5rem",
+      fontSize: "3rem",
       cursor: "pointer",
       transform: "translateY(-50%)",
       transition: "all 0.3s ease-in-out",
       "&:hover": {
-        color: theme.tertiary,
+        color: theme.secondary,
       },
-      [t.breakpoints.down("sm")]: {
-        fontSize: "1.8rem",
+      [t.breakpoints.down("md")]: {
+        fontSize: "2rem",
+        padding: "0",
       },
     },
   }));
@@ -79,7 +80,7 @@ function ProjectPage() {
         <Link to="/">
           <AiOutlineHome className={classes.home} />
         </Link>
-        <h1 style={{ color: theme.secondary }}>Projects</h1>
+        <h1 style={{ color: theme.tertiary }}>Projects</h1>
       </div>
       <div className="projectPage-container">
         <div className="projectPage-search">

@@ -47,7 +47,7 @@
       "> .5%, last 2 versions"
     ],
     "development": [
-      "last 2 versions"
+      "last 1 firefox version"
     ]
   },
   "devDependencies": {
