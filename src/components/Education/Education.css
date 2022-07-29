@@ -132,9 +132,9 @@
     flex: 1;
     margin: auto;
   }
-  .education-description > h1 {
+  /* .education-description > h1 {
     font-size: 3rem;
-  }
+  } */
 
   .education-card {
     width: 100%;
@@ -213,5 +213,12 @@
   .education {
     min-height: unset;
     padding-bottom: 15rem;
+  }
+}
+
+@media (max-width: 920px) and (orientation: portrait) {
+  .education {
+    min-height: unset;
+    padding-bottom: 5rem;
   }
 }

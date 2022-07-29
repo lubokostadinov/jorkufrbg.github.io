@@ -123,3 +123,12 @@
     padding: 1rem;
   }
 }
+
+@media (max-width: 430px) and (orientation: portrait) {
+  .singleProject {
+    flex: 100% 1;
+  }
+  .projects--bodyContainer {
+    gap: 1.5rem;
+  }
+}

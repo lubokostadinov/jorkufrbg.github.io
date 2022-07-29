@@ -136,9 +136,9 @@
     margin: auto;
     pad: 3rem 2rem;
   }
-  .experience-description > h1 {
+  /* .experience-description > h1 {
     font-size: 3rem;
-  }
+  } */
   .experience-card {
     width: 100%;
     padding: 1.5rem;
@@ -210,5 +210,12 @@
   .experience {
     min-height: unset;
     padding-bottom: 15rem;
+  }
+}
+
+@media (max-width: 920px) and (orientation: portrait) {
+  .experience {
+    min-height: unset;
+    padding-bottom: 5rem;
   }
 }

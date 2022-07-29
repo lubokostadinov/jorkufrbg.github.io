@@ -96,7 +96,7 @@
     padding: 2rem;
   }
   .projects--header h1 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
     margin-bottom: 2rem;
   }
   .projects--bodyContainer {
@@ -165,5 +165,23 @@
   .projects {
     min-height: unset;
     padding-bottom: 15rem;
+  }
+}
+
+@media only screen and (max-width: 920px) and (orientation: portrait) {
+  .projects {
+    min-height: unset;
+    padding-top: 0;
+    /* padding-bottom: 5rem; */
+  }
+}
+
+@media (max-width: 430px) and (orientation: portrait) {
+  .projects {
+    padding: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  .projects--viewAll {
+    margin-top: 5rem;
   }
 }
