@@ -1,10 +1,10 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "Hello, my name's Georgi. I am a web developer based in Sofia, Bulgaria.",
+    "Proficient individual with over 6 years of experience in website development and interconnected technologies.",
   description2:
-    "For the last year I have been working on freelance projects and improving my developer skills to the next level. Currently I'm focused on React.js and related tools, such as Redux and Next.js",
+    "I am deeply interested in real-time web and mobile applications, software design patterns & blockchain technologies. Currently my focus is on React.js and other related/complementary tools, such as Redux, Next.js, etc.",
   description3:
-    "Usually I spend my leisure hours doing extreme sports and playing video games. I'm committed to learning and exploring new frontiers.",
+    "Everlearning with a strong desire to contribute to team and community growth.",
   image: 1,
 };
