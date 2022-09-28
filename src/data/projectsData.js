@@ -31,7 +31,7 @@ export const projectsData = [
       "React application for storing memorable quotes I came across.",
     tags: ["React", "Router", "Firebase"],
     code: "https://github.com/jorkufrbg/React-Quotes-App",
-    demo: "https://quotes-dark.web.app/quotes",
+    demo: "https://quotes-app-a62b0.web.app/",
     image: quotes,
   },
   {
