@@ -1,10 +1,10 @@
-import resume from "../assets/pdf/resume.pdf";
-import LandingImage from "../assets/images/landingImg.png";
+import resume from '../assets/pdf/resume.pdf';
+import LandingImage from '../assets/images/landingImg.png';
 export const headerData = {
-  name: "Georgi Karadzhov",
-  title: "Web Developer",
+  name: 'Lyubomir Kostadinov',
+  title: 'Game Developer',
   description:
-    "Hello, I am a software engineer based in Sofia, Bulgaria. Always striving to deliver high-quality and robust software solutions that deliver unique experience while complying with coding standards and technical requirements. ",
+    'Hello, I am a student at Breda University, pursuing a degree in Creative Media and Game Technologies. As someone with a deep interest in the field of computer graphics, I am constantly exploring new technologies and techniques to improve my skills. Here you can see some of the projects I have been working on during my studies',
   image: LandingImage,
   resumePdf: resume,
 };
