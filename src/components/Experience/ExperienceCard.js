@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Fade from "react-reveal/Fade";
+import React, { useContext } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Fade from 'react-reveal/Fade';
 
-import { ThemeContext } from "../../contexts/ThemeContext";
+import { ThemeContext } from '../../contexts/ThemeContext';
 
-import expImgWhite from "../../assets/svg/experience/expImgWhite.svg";
-import expImgBlack from "../../assets/svg/experience/expImgBlack.svg";
+import expImgWhite from '../../assets/svg/experience/expImgWhiteDev.svg';
+import expImgBlack from '../../assets/svg/experience/expImgBlackDev.svg';
 
-import "./Experience.css";
+import './Experience.css';
 
 function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
   const { theme } = useContext(ThemeContext);
@@ -15,8 +15,8 @@ function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
   const useStyles = makeStyles((t) => ({
     experienceCard: {
       backgroundColor: theme.primary30,
-      "&:hover": {
-        backgroundColor: "#f5653980",
+      '&:hover': {
+        backgroundColor: '#f5653980',
       },
     },
   }));
@@ -28,7 +28,7 @@ function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
       <div key={id} className={`experience-card ${classes.experienceCard}`}>
         <div className="expcard-img" style={{ backgroundColor: theme.primary }}>
           <img
-            src={theme.type === "light" ? expImgBlack : expImgWhite}
+            src={theme.type === 'light' ? expImgBlack : expImgWhite}
             alt=""
           />
         </div>
