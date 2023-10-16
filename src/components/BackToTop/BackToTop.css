@@ -16,7 +16,8 @@
 }
 
 .backToTop button.orange svg {
-  color: #f56539;
+  /* color: #f56539; */
+  color: #545fc4;
 }
 
 .backToTop button.orange:hover svg {
