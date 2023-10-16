@@ -61,7 +61,8 @@
 
 .input-container:focus-within label {
   transition: all 300ms ease-in-out;
-  color: var(--orange);
+  /* color: var(--orange); */
+  color: #eaeaea;
 }
 
 .form-input {
@@ -100,6 +101,10 @@
   align-items: center;
   justify-content: space-evenly;
   cursor: pointer;
+}
+
+.submit-btn button:hover {
+  color: #eaeaea;
 }
 
 .submit-btn button p {
@@ -145,7 +150,7 @@
   margin-left: 5rem;
 }
 .personal-details:hover > div {
-  background-color: #f56539;
+  background-color: #eaeaea;
 }
 
 .personal-details p {
@@ -167,6 +172,10 @@
   gap: 1.5rem;
   margin-top: 4rem;
   margin-left: 5rem;
+}
+
+.socialmedia-icons a:hover {
+  background-color: #eaeaea;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {

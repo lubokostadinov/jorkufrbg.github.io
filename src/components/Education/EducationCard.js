@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Fade from "react-reveal/Fade";
+import React, { useContext } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Fade from 'react-reveal/Fade';
 
-import { ThemeContext } from "../../contexts/ThemeContext";
+import { ThemeContext } from '../../contexts/ThemeContext';
 
-import eduImgWhite from "../../assets/svg/education/eduImgWhite.svg";
-import eduImgBlack from "../../assets/svg/education/eduImgBlack.svg";
-import "./Education.css";
+import eduImgWhite from '../../assets/svg/education/eduImgWhite.svg';
+import eduImgBlack from '../../assets/svg/education/eduImgBlack.svg';
+import './Education.css';
 
 function EducationCard({ id, institution, course, startYear, endYear }) {
   const { theme } = useContext(ThemeContext);
@@ -14,8 +14,8 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
   const useStyles = makeStyles((t) => ({
     educationCard: {
       backgroundColor: theme.primary30,
-      "&:hover": {
-        backgroundColor: "#f5653980",
+      '&:hover': {
+        backgroundColor: theme.primary30,
       },
     },
   }));
@@ -27,7 +27,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
       <div key={id} className={`education-card ${classes.educationCard}`}>
         <div className="educard-img" style={{ backgroundColor: theme.primary }}>
           <img
-            src={theme.type === "light" ? eduImgBlack : eduImgWhite}
+            src={theme.type === 'light' ? eduImgBlack : eduImgWhite}
             alt=""
           />
         </div>

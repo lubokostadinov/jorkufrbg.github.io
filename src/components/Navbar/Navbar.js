@@ -1,18 +1,18 @@
-import React, { useContext, useState } from "react";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import Fade from "react-reveal/Fade";
-import { IoMenuSharp, IoHomeSharp } from "react-icons/io5";
+import React, { useContext, useState } from 'react';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import Fade from 'react-reveal/Fade';
+import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 // import { HiDocumentText } from "react-icons/hi";
-import { BsFillGearFill } from "react-icons/bs";
-import { MdPhone } from "react-icons/md";
+import { BsFillGearFill } from 'react-icons/bs';
+import { MdPhone } from 'react-icons/md';
 // import { FaUser, FaFolderOpen } from "react-icons/fa";
-import { makeStyles } from "@material-ui/core/styles";
-import Drawer from "@material-ui/core/Drawer";
-import CloseIcon from "@material-ui/icons/Close";
+import { makeStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import CloseIcon from '@material-ui/icons/Close';
 
-import "./Navbar.css";
+import './Navbar.css';
 // import { headerData } from "../../data/headerData";
-import { ThemeContext } from "../../contexts/ThemeContext";
+import { ThemeContext } from '../../contexts/ThemeContext';
 
 function Navbar() {
   const { theme, setHandleDrawer } = useContext(ThemeContext);
@@ -31,96 +31,96 @@ function Navbar() {
 
   const useStyles = makeStyles((t) => ({
     navMenu: {
-      fontSize: "2.5rem",
+      fontSize: '2.5rem',
       color: theme.primary,
-      cursor: "pointer",
-      transform: "translateY(-10px)",
-      transition: "color 300ms ease-in-out",
-      "&:hover": {
-        color: theme.orange,
-      },
-      [t.breakpoints.down("sm")]: {
-        fontSize: "2.5rem",
+      cursor: 'pointer',
+      transform: 'translateY(-10px)',
+      transition: 'color 300ms ease-in-out',
+      '&:hover': {
         color: theme.tertiary,
-        "&:hover": {
+      },
+      [t.breakpoints.down('sm')]: {
+        fontSize: '2.5rem',
+        color: theme.tertiary,
+        '&:hover': {
           color: theme.secondary,
         },
       },
-      [t.breakpoints.down("xs")]: {
-        fontSize: "2rem",
+      [t.breakpoints.down('xs')]: {
+        fontSize: '2rem',
       },
     },
     MuiDrawer: {
-      padding: "0 1.8em",
-      width: "14em",
-      fontFamily: " var(--primaryFont)",
-      fontStyle: " normal",
-      fontWeight: " normal",
-      fontSize: " 24px",
+      padding: '0 1.8em',
+      width: '14em',
+      fontFamily: ' var(--primaryFont)',
+      fontStyle: ' normal',
+      fontWeight: ' normal',
+      fontSize: ' 24px',
       background: theme.secondary,
-      overflow: "hidden",
-      justifyContent: "center",
-      borderTopRightRadius: "40px",
-      borderBottomRightRadius: "40px",
-      [t.breakpoints.down("sm")]: {
-        width: "12em",
+      overflow: 'hidden',
+      justifyContent: 'center',
+      borderTopRightRadius: '40px',
+      borderBottomRightRadius: '40px',
+      [t.breakpoints.down('sm')]: {
+        width: '12em',
       },
     },
     closebtnIcon: {
-      fontSize: "2rem",
-      fontWeight: "bold",
-      cursor: "pointer",
+      fontSize: '2rem',
+      fontWeight: 'bold',
+      cursor: 'pointer',
       color: theme.primary,
-      position: "absolute",
+      position: 'absolute',
       right: 40,
       top: 40,
-      transition: "color 300ms ease-in-out",
-      "&:hover": {
-        color: theme.orange,
+      transition: 'color 300ms ease-in-out',
+      '&:hover': {
+        color: theme.tertiary,
       },
-      [t.breakpoints.down("sm")]: {
+      [t.breakpoints.down('sm')]: {
         right: 20,
         top: 20,
       },
     },
     drawerItem: {
-      margin: "2rem auto 2rem auto",
-      borderRadius: "78.8418px",
+      margin: '2rem auto 2rem auto',
+      borderRadius: '78.8418px',
       background: theme.secondary,
       color: theme.primary,
-      width: "85%",
-      height: "60px",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-evenly",
-      padding: "0 30px",
-      boxSizing: "border-box",
-      border: "2px solid",
+      width: '85%',
+      height: '60px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-evenly',
+      padding: '0 30px',
+      boxSizing: 'border-box',
+      border: '2px solid',
       borderColor: theme.primary,
-      transition: "all 300ms, ease-in-out",
-      "&:hover": {
-        color: theme.orange,
-        borderColor: theme.orange,
+      transition: 'all 300ms, ease-in-out',
+      '&:hover': {
+        color: theme.tertiary,
+        borderColor: theme.tertiary,
       },
-      [t.breakpoints.down("sm")]: {
-        width: "95%",
-        padding: "0 25px",
-        height: "45px",
+      [t.breakpoints.down('sm')]: {
+        width: '95%',
+        padding: '0 25px',
+        height: '45px',
       },
     },
     drawerLinks: {
-      fontFamily: "var(--primaryFont)",
-      width: "50%",
-      fontSize: "1.3rem",
+      fontFamily: 'var(--primaryFont)',
+      width: '50%',
+      fontSize: '1.3rem',
       fontWeight: 600,
-      [t.breakpoints.down("sm")]: {
-        fontSize: "1.125rem",
+      [t.breakpoints.down('sm')]: {
+        fontSize: '1.125rem',
       },
     },
     drawerIcon: {
-      fontSize: "1.6rem",
-      [t.breakpoints.down("sm")]: {
-        fontSize: "1.385rem",
+      fontSize: '1.6rem',
+      [t.breakpoints.down('sm')]: {
+        fontSize: '1.385rem',
       },
     },
   }));
@@ -149,9 +149,9 @@ function Navbar() {
       <Drawer
         variant="temporary"
         onClose={(event, reason) => {
-          if (reason !== "backdropClick") {
+          if (reason !== 'backdropClick') {
             handleDrawerClose();
-          } else if (reason !== "escapeKeyDown") {
+          } else if (reason !== 'escapeKeyDown') {
             handleDrawerClose();
           }
         }}
@@ -165,7 +165,7 @@ function Navbar() {
           <CloseIcon
             onClick={handleDrawerClose}
             onKeyDown={(e) => {
-              if (e.key === " " || e.key === "Enter") {
+              if (e.key === ' ' || e.key === 'Enter') {
                 e.preventDefault();
                 handleDrawerClose();
               }

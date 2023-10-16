@@ -42,11 +42,11 @@
 }
 
 .education-card:hover .educard-img {
-  background-color: var(--orange) !important;
+  background-color: var(--black) !important;
 }
 
 .education-card:hover h6 {
-  color: var(--orange) !important;
+  color: var(--black) !important;
 }
 
 .educard-img {

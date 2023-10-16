@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
-import { Button } from "@material-ui/core";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import { makeStyles } from "@material-ui/core/styles";
+import React, { useContext } from 'react';
+import { Button } from '@material-ui/core';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import { makeStyles } from '@material-ui/core/styles';
 
-import "./Landing.css";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { headerData } from "../../data/headerData";
-import { socialsData } from "../../data/socialsData";
+import './Landing.css';
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { headerData } from '../../data/headerData';
+import { socialsData } from '../../data/socialsData';
 
-import { FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCodepen } from 'react-icons/fa';
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -16,19 +16,19 @@ function Landing() {
   const useStyles = makeStyles((t) => ({
     contactBtn: {
       color: theme.primary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      height: "50px",
-      fontFamily: "var(--primaryFont)",
+      borderRadius: '30px',
+      textTransform: 'inherit',
+      textDecoration: 'none',
+      width: '150px',
+      fontSize: '1rem',
+      fontWeight: '500',
+      height: '50px',
+      fontFamily: 'var(--primaryFont)',
       border: `3px solid ${theme.primary}`,
-      transition: "all 300ms ease-in-out",
-      "&:hover": {
-        color: theme.orange,
-        border: `3px solid ${theme.orange}`,
+      transition: 'all 300ms ease-in-out',
+      '&:hover': {
+        color: `#eaeaea`,
+        border: `3px solid #eaeaea`,
       },
       // [t.breakpoints.down("sm")]: {
       //   width: "180px",
@@ -37,19 +37,19 @@ function Landing() {
     resumeBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      height: "50px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      fontFamily: "var(--primaryFont)",
+      borderRadius: '30px',
+      textTransform: 'inherit',
+      textDecoration: 'none',
+      width: '150px',
+      height: '50px',
+      fontSize: '1rem',
+      fontWeight: '500',
+      fontFamily: 'var(--primaryFont)',
       border: `3px solid ${theme.primary}`,
-      transition: "all 300ms ease-in-out",
-      "&:hover": {
-        backgroundColor: theme.orange,
-        border: `3px solid ${theme.orange}`,
+      transition: 'all 300ms ease-in-out',
+      '&:hover': {
+        backgroundColor: `#eaeaea`,
+        border: `3px solid  #eaeaea`,
       },
       // [t.breakpoints.down("sm")]: {
       //   display: "none",
@@ -101,7 +101,7 @@ function Landing() {
           alt=""
           className="landing--img"
           style={{
-            opacity: `${drawerOpen ? "0" : "1"}`,
+            opacity: `${drawerOpen ? '0' : '1'}`,
             borderColor: theme.secondary,
           }}
         />

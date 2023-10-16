@@ -1,34 +1,34 @@
-import React, { useContext, useState } from "react";
-import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
-import CloseIcon from "@material-ui/icons/Close";
-import axios from "axios";
-import isEmail from "validator/lib/isEmail";
-import { makeStyles } from "@material-ui/core/styles";
-import { FaLinkedinIn, FaGithub, FaCodepen } from "react-icons/fa";
-import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
-import { FiPhone, FiAtSign } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import React, { useContext, useState } from 'react';
+import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
+import axios from 'axios';
+import isEmail from 'validator/lib/isEmail';
+import { makeStyles } from '@material-ui/core/styles';
+import { FaLinkedinIn, FaGithub, FaCodepen } from 'react-icons/fa';
+import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
+import { FiPhone, FiAtSign } from 'react-icons/fi';
+import { HiOutlineLocationMarker } from 'react-icons/hi';
 
-import { ThemeContext } from "../../contexts/ThemeContext";
+import { ThemeContext } from '../../contexts/ThemeContext';
 
-import { socialsData } from "../../data/socialsData";
-import { contactsData } from "../../data/contactsData";
-import "./Contacts.css";
+import { socialsData } from '../../data/socialsData';
+import { contactsData } from '../../data/contactsData';
+import './Contacts.css';
 
 function Contacts() {
   const [open, setOpen] = useState(false);
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const [success, setSuccess] = useState(false);
-  const [errMsg, setErrMsg] = useState("");
+  const [errMsg, setErrMsg] = useState('');
 
   const { theme } = useContext(ThemeContext);
 
   const handleClose = (event, reason) => {
-    if (reason === "clickaway") {
+    if (reason === 'clickaway') {
       return;
     }
 
@@ -40,10 +40,10 @@ function Contacts() {
       border: `4px solid ${theme.primary80}`,
       backgroundColor: `${theme.secondary}`,
       color: `${theme.tertiary}`,
-      fontFamily: "var(--primaryFont)",
+      fontFamily: 'var(--primaryFont)',
       fontWeight: 500,
-      transition: "border 300ms ease-in-out",
-      "&:focus": {
+      transition: 'border 300ms ease-in-out',
+      '&:focus': {
         border: `4px solid ${theme.orange}`,
       },
     },
@@ -51,62 +51,62 @@ function Contacts() {
       border: `4px solid ${theme.primary80}`,
       backgroundColor: `${theme.secondary}`,
       color: `${theme.tertiary}`,
-      fontFamily: "var(--primaryFont)",
+      fontFamily: 'var(--primaryFont)',
       fontWeight: 500,
-      transition: "border 300ms ease-in-out",
-      "&:focus": {
+      transition: 'border 300ms ease-in-out',
+      '&:focus': {
         border: `4px solid ${theme.orange}`,
       },
     },
     label: {
       backgroundColor: `${theme.secondary}`,
       color: `${theme.primary}`,
-      fontFamily: "var(--primaryFont)",
+      fontFamily: 'var(--primaryFont)',
       fontWeight: 600,
-      fontSize: "0.9rem",
-      padding: "0 5px",
-      transform: "translate(25px,50%)",
-      display: "inline-flex",
+      fontSize: '0.9rem',
+      padding: '0 5px',
+      transform: 'translate(25px,50%)',
+      display: 'inline-flex',
     },
     socialIcon: {
-      width: "45px",
-      height: "45px",
-      borderRadius: "50%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      fontSize: "21px",
+      width: '45px',
+      height: '45px',
+      borderRadius: '50%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontSize: '21px',
       backgroundColor: theme.primary,
       color: theme.secondary,
-      transition: "all 300ms ease-in-out",
-      "&:hover": {
-        transform: "scale(1.1)",
+      transition: 'all 300ms ease-in-out',
+      '&:hover': {
+        transform: 'scale(1.1)',
         backgroundColor: theme.orange,
       },
     },
     detailsIcon: {
       backgroundColor: theme.primary,
       color: theme.secondary,
-      borderRadius: "50%",
-      width: "45px",
-      height: "45px",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      fontSize: "23px",
-      transition: "all 300ms ease-in-out",
+      borderRadius: '50%',
+      width: '45px',
+      height: '45px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      fontSize: '23px',
+      transition: 'all 300ms ease-in-out',
       flexShrink: 0,
-      "&:hover": {
-        transform: "scale(1.1)",
+      '&:hover': {
+        transform: 'scale(1.1)',
         color: theme.secondary,
       },
     },
     submitBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
-      transition: "300ms ease-in-out",
-      "&:hover": {
-        transform: "scale(1.08)",
+      transition: '300ms ease-in-out',
+      '&:hover': {
+        transform: 'scale(1.08)',
         backgroundColor: theme.orange,
         borderColor: theme.orange,
       },
@@ -127,21 +127,21 @@ function Contacts() {
         };
 
         axios.post(contactsData.sheetAPI, responseData).then((res) => {
-          console.log("success");
+          console.log('success');
           setSuccess(true);
-          setErrMsg("");
+          setErrMsg('');
 
-          setName("");
-          setEmail("");
-          setMessage("");
+          setName('');
+          setEmail('');
+          setMessage('');
           setOpen(false);
         });
       } else {
-        setErrMsg("Invalid email");
+        setErrMsg('Invalid email');
         setOpen(true);
       }
     } else {
-      setErrMsg("Enter all the fields");
+      setErrMsg('Enter all the fields');
       setOpen(true);
     }
   };
@@ -199,22 +199,22 @@ function Contacts() {
 
               <div className="submit-btn">
                 <button type="submit" className={classes.submitBtn}>
-                  <p>{!success ? "Send" : "Sent"}</p>
+                  <p>{!success ? 'Send' : 'Sent'}</p>
                   <div className="submit-icon">
                     <AiOutlineSend
                       className="send-icon"
                       style={{
                         animation: !success
-                          ? "initial"
-                          : "fly 0.8s linear both",
-                        position: success ? "absolute" : "initial",
+                          ? 'initial'
+                          : 'fly 0.8s linear both',
+                        position: success ? 'absolute' : 'initial',
                       }}
                     />
                     <AiOutlineCheckCircle
                       className="success-icon"
                       style={{
-                        display: !success ? "none" : "inline-flex",
-                        opacity: !success ? "0" : "1",
+                        display: !success ? 'none' : 'inline-flex',
+                        opacity: !success ? '0' : '1',
                       }}
                     />
                   </div>
@@ -223,8 +223,8 @@ function Contacts() {
             </form>
             <Snackbar
               anchorOrigin={{
-                vertical: "top",
-                horizontal: "center",
+                vertical: 'top',
+                horizontal: 'center',
               }}
               open={open}
               autoHideDuration={4000}
@@ -246,7 +246,7 @@ function Contacts() {
                 style={{
                   backgroundColor: theme.primary,
                   color: theme.secondary,
-                  fontFamily: "var(--primaryFont)",
+                  fontFamily: 'var(--primaryFont)',
                 }}
                 message={errMsg}
               />
