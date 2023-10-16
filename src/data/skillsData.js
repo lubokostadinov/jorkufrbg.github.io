@@ -26,6 +26,12 @@ export const skillsData = [
   // "Lightroom",
   // "Premiere Pro",
   'C++',
+  'C',
+  'DirectX',
+  'OpenGl',
+  'Helix Core',
+  'Unreal Engine',
+  'Jira',
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -38,7 +38,7 @@ import git from '../assets/svg/skills/git.svg';
 // import tailwind from "../assets/svg/skills/tailwind.svg";
 // import vitejs from "../assets/svg/skills/vitejs.svg";
 // import vuetifyjs from "../assets/svg/skills/vuetifyjs.svg";
-// import c from "../assets/svg/skills/c.svg";
+import c from '../assets/svg/skills/c.svg';
 import cplusplus from '../assets/svg/skills/cplusplus.svg';
 // import csharp from "../assets/svg/skills/csharp.svg";
 // import dart from "../assets/svg/skills/dart.svg";
@@ -78,6 +78,12 @@ import cplusplus from '../assets/svg/skills/cplusplus.svg';
 // import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
 // import canva from "../assets/svg/skills/canva.svg";
 
+import directx from '../assets/svg/skills/DirectX.svg';
+import opengl from '../assets/svg/skills/opengl.svg';
+import helixcore from '../assets/svg/skills/helixCore.svg';
+import unrealengine from '../assets/svg/skills/unrealEngine.svg';
+import jira from '../assets/svg/skills/Jira.svg';
+
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   let isInverted = false;
@@ -85,21 +91,24 @@ export const skillsImage = (skill) => {
   if (skillID === 'c++') {
     skill = cplusplus;
     isInverted = true;
+  } else if (skillID === 'c') {
+    skill = c;
+    isInverted = true;
   } else if (skillID === 'git') {
     skill = git;
     isInverted = true;
-    // } else if (skillID === 'scss') {
-    //   skill = scss;
-    // } else if (skillID === 'javascript') {
-    //   skill = javascript;
-    // } else if (skillID === 'typescript') {
-    //   skill = typescript;
-    //   isInverted = true;
-    // } else if (skillID === 'next js') {
-    //   skill = nextJS;
-    //   isInverted = true;
-    // } else if (skillID === 'react') {
-    //   skill = react;
+  } else if (skillID === 'directx') {
+    skill = directx;
+  } else if (skillID === 'opengl') {
+    skill = opengl;
+  } else if (skillID === 'helix core') {
+    skill = helixcore;
+    isInverted = true;
+  } else if (skillID === 'unreal engine') {
+    skill = unrealengine;
+    isInverted = true;
+  } else if (skillID === 'jira') {
+    skill = jira;
     // } else if (skillID === 'mongodb') {
     //   skill = mongoDB;
     // } else if (skillID === 'bootstrap') {
