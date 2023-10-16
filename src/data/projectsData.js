@@ -1,157 +1,96 @@
-import meetups from "../assets/svg/projects/meetups.svg";
-import quotes from "../assets/svg/projects/quotes.svg";
-import jamming from "../assets/svg/projects/jamming.svg";
-import rubik from "../assets/svg/projects/rubik.svg";
-import flights from "../assets/svg/projects/flights.svg";
-import ido from "../assets/svg/projects/ido.svg";
-import wordborn from "../assets/svg/projects/wordborn.svg";
-import whisp from "../assets/svg/projects/whisp.svg";
-import motoretta from "../assets/svg/projects/motoretta.svg";
-import aakasha from "../assets/svg/projects/aakasha.svg";
-import artGallery from "../assets/svg/projects/artGallery.svg";
-import hearteum from "../assets/svg/projects/hearteum.svg";
-import plygear from "../assets/svg/projects/plygear.svg";
-import michael from "../assets/svg/projects/michael.svg";
+import meetups from '../assets/svg/projects/meetups.svg';
+import quotes from '../assets/svg/projects/quotes.svg';
+import jamming from '../assets/svg/projects/jamming.svg';
+import rubik from '../assets/svg/projects/rubik.svg';
+import flights from '../assets/svg/projects/flights.svg';
+import ido from '../assets/svg/projects/ido.svg';
+import wordborn from '../assets/svg/projects/wordborn.svg';
+import whisp from '../assets/svg/projects/whisp.svg';
+import motoretta from '../assets/svg/projects/motoretta.svg';
+import aakasha from '../assets/svg/projects/aakasha.svg';
+import artGallery from '../assets/svg/projects/artGallery.svg';
+import hearteum from '../assets/svg/projects/hearteum.svg';
+import plygear from '../assets/svg/projects/plygear.svg';
+import michael from '../assets/svg/projects/michael.svg';
 
-export const projectsData = [{
-  id: 1,
-  projectName: "React Quotes",
-  projectDesc:
-    "React application for storing memorable quotes I came across.",
-  tags: ["React", "Router", "Firebase"],
-  code: "https://github.com/jorkufrbg/React-Quotes-App",
-  demo: "https://quotes-app-a62b0.web.app/",
-  image: quotes,
-},
-{
-  id: 2,
-  projectName: "React Meetups",
-  projectDesc:
-    "Browse and expand a huge list of highly active React meetups!",
-  tags: ["React", "Next", "MongoDB"],
-  code: "https://github.com/jorkufrbg/next-meetups",
-  demo: "https://meetups-nextjs-l8uk1bzc7-jorkufrbg.vercel.app/",
-  image: meetups,
-},
+export const projectsData = [
+  {
+    id: 1,
+    projectName: 'Descent Raytraced',
+    projectDesc:
+      'During my third year in university I worked on Descent Raytraced. The purpose of the project was to rewrite the graphics of the old game Descent to be using ray tracing. For this project we used DirectX, Raytracing API. I worked on creating the DirectX renderer, implemnting the path tracing algorithm and the physically based rendering.',
+    tags: ['DirectX Raytracing API', '3 year project'],
+    code: 'https://github.com/BredaUniversityGames/DXX-Raytracer',
+    demo: 'https://youtu.be/wCGnQoakOWc',
+    image: quotes,
+  },
+  {
+    id: 2,
+    projectName: '3D OpenGl',
+    projectDesc:
+      'This project showcases various features in computer graphics, including model loading in OBJ format, materials with textures, instanced rendering, point lights and post-proccessing shaders. I created this program using my knowledge and experiance with C++ and OpenGL during my first academic year.',
+    tags: ['C++', 'OpenGL'],
+    code: 'https://github.com/lubokostadinov/3DopenGL.git',
+    demo: 'https://youtu.be/DDv-jmcb5X4',
+    image: meetups,
+  },
 
-{
-  id: 3,
-  projectName: "React Jamming",
-  projectDesc:
-    "Simple application for searching and adding music to playlists, which utilizes the powerful Spotify API",
-  tags: ["React", "JavaScript", "Spotify API"],
-  code: "https://github.com/jorkufrbg/Jamming-React",
-  demo: "http://jamming-cc.surge.sh/",
-  image: jamming,
-},
-{
-  id: 4,
-  projectName: "Studio Rubik",
-  projectDesc:
-    "Creative Agency for Video Production, Rebranding and UX/UI Design.",
-  tags: ["Wordpress", "Javascript", "SCSS", "Webpack"],
-  code: "",
-  demo: "https://www.studiorubik.com/",
-  image: rubik,
-},
-{
-  id: 5,
-  projectName: "Flights and Adventures",
-  projectDesc: "Website for paragliding and extreme sports.",
-  tags: ["Wordpress", "CSS", "jQuery"],
-  code: "",
-  demo: "http://flightsandadventures.bg/",
-  image: flights,
-},
-{
-  id: 6,
-  projectName: "Ido Design",
-  projectDesc:
-    "High-end wayfinding solutions, interior design branding and POSM for public interior and exterior commercial spaces.",
-  tags: ["Python", "CSS", "JavaScript"],
-  code: "",
-  demo: "https://ido.design/",
-  image: ido,
-},
-{
-  id: 7,
-  projectName: "Wordborn",
-  projectDesc:
-    "This project is focused on teaching technical writing, public speaking and creative writing.",
-  tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
-  code: "",
-  demo: "https://wordborn.org/",
-  image: wordborn,
-},
-{
-  id: 8,
-  projectName: "Whisp",
-  projectDesc:
-    "Fast-track self-service tool for sorting out your healthcare and residency abroad or back home!",
-  tags: ["Wordpress", "SCSS", "JavaScript", "jQuery"],
-  code: "",
-  demo: "https://www.whisphealth.com/",
-  image: whisp,
-},
-{
-  id: 9,
-  projectName: "Motoretta",
-  projectDesc: "The first of its kind electric moped in Bulgaria.",
-  tags: ["PHP", "jQuery", "SCSS"],
-  code: "",
-  demo: "https://motorettagroup.com/",
-  image: motoretta,
-},
-{
-  id: 10,
-  projectName: "Aakasha",
-  projectDesc:
-    "A unique clothing brand combining natural fabrics and impeccable quality.",
-  tags: ["PHP", "jQuery", "Bootstrap"],
-  code: "",
-  demo: "https://www.aakasha.com/",
-  image: aakasha,
-},
-{
-  id: 11,
-  projectName: "Sofia Art Gallery",
-  projectDesc:
-    "This website houses not only examples of contemporary and national revival art, but also the country's largest collection of medieval paintings.",
-  tags: ["SCSS", "jQuery"],
-  code: "",
-  demo: "https://nationalgallery.bg/",
-  image: artGallery,
-},
-{
-  id: 12,
-  projectName: "Michael Cohen Personal Website",
-  projectDesc:
-    "Michael Harris Cohen’s stories have been published in numerous magazines and anthologies.",
-  tags: ["HTML", "SCSS", "jQuery"],
-  code: "https://github.com/jorkufrbg/Michael-Harris-Website",
-  demo: "https://www.michaelharriscohen.net/",
-  image: michael,
-},
-{
-  id: 13,
-  projectName: "PlyGear",
-  projectDesc:
-    "PlyGear is a design studio and workshop for tailor-made furniture units made exclusively from plywood.",
-  tags: ["HTML", "SCSS", "JavaScript"],
-  code: "",
-  demo: "https://plygear.com/",
-  image: plygear,
-},
-{
-  id: 14,
-  projectName: "Hearteum",
-  projectDesc:
-    "Hearteum is a utility-payment solution on the Blockchain that stimulates commerce to improve customer value.",
-  tags: ["HTML", "SCSS", "JavaScript", "Webpack"],
-  code: "",
-  demo: "https://hearteum.studiorubik.com/",
-  image: hearteum,
-},
+  {
+    id: 3,
+    projectName: 'Game Engine',
+    projectDesc:
+      'I worked on this project in a group of 4 people, the engine is developed in C++, DirectX 12 for windows graphics and GNMX for PlayStation 4 graphics. The engine provides demo game which runs both on windows and PlayStation 4. For this project I worked on the graphics implementation on windows using DirectX 12. The renderer contains model loading, texture management, directional lights and post-processing pipeline.',
+    tags: ['C++', 'DirectX 12', 'PlayStation 4'],
+    code: '',
+    demo: 'https://www.youtube.com/watch?v=mJh2_gTsIok&feature=youtu.be',
+    image: jamming,
+  },
+  {
+    id: 4,
+    projectName: 'Simple Ray Tracer',
+    projectDesc:
+      'This project is a C++ program that generates a ray traced image with a plane and spheres using diffuse shading and reflection. It uses my own math library and SFML to output the final image. I implemented unit tests for vector operations to ensure accuracy and efficiency.',
+    tags: ['C++'],
+    code: 'https://github.com/lubokostadinov/RayTracer-Project',
+    demo: '',
+    image: rubik,
+  },
+  {
+    id: 5,
+    projectName: 'Empires',
+    projectDesc:
+      'Strategy game on raspberry pi 4 built with C++ and openGL es 3. The game generates a galaxy and gives each player a home planet. The goal of the game is to gather resources, craft space ships and conquer the enemy planets. The game contains GUI made with ImGui, 3D models (OBJ format), Instanced rendering and post-processing effects.',
+    tags: ['C++', 'OpenGL', 'ImGui'],
+    code: '',
+    demo: 'https://youtu.be/T96Bzpo98Is',
+    image: flights,
+  },
+  {
+    id: 6,
+    projectName: 'Rougelike Game',
+    projectDesc:
+      'In the second year during my studies I worked on a game with a group with other programmers, artists and designers to create a game, using custom game engine built in C++ and DirectX 12. The game runs both on Windows and PlayStation 4. For this project I worked mostly on implementing the UI elements functionality and a UI editor for the designers to create the menus.',
+    tags: ['C++', 'DirectX 12', 'PlayStation 4'],
+    code: '',
+    demo: 'https://youtu.be/xErvTAX_Lc8',
+    image: ido,
+  },
+  {
+    id: 7,
+    projectName: 'Snackbar Showdown',
+    projectDesc:
+      'During my first year at university we had to work in a group project and  release a game, using Unreal Engine. For this game I worked on the Player movement mechanics, his health system, the collectible items and the inventory system.',
+    tags: [
+      'Unreal Engine',
+      'Player Movement Mechanics',
+      'Health System',
+      'Collectibles',
+      'Inventory',
+    ],
+    code: '',
+    demo: 'https://buas.itch.io/snackbarshowdown',
+    image: wordborn,
+  },
 ];
 
 /*

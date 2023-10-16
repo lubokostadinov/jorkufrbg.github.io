@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
 
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { projectsData } from "../../data/projectsData";
-import { HiArrowRight } from "react-icons/hi";
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { projectsData } from '../../data/projectsData';
+import { HiArrowRight } from 'react-icons/hi';
 
-import "./Projects.css";
-import SingleProject from "./SingleProject/SingleProject";
+import './Projects.css';
+import SingleProject from './SingleProject/SingleProject';
 
 function Projects() {
   const { theme } = useContext(ThemeContext);
@@ -16,8 +16,8 @@ function Projects() {
     viewAllBtn: {
       color: theme.tertiary,
       backgroundColor: theme.primary,
-      transition: "all 300ms ease-in-out",
-      "&:hover": {
+      transition: 'all 300ms ease-in-out',
+      '&:hover': {
         color: theme.secondary,
         backgroundColor: theme.orange,
       },
@@ -25,14 +25,14 @@ function Projects() {
     viewArr: {
       color: theme.tertiary,
       backgroundColor: theme.secondary70,
-      width: "40px",
-      height: "40px",
-      padding: "0.5rem",
-      fontSize: "1.05rem",
-      borderRadius: "50%",
-      cursor: "pointer",
-      transition: "background-color 0.2s",
-      "&:hover": {
+      width: '40px',
+      height: '40px',
+      padding: '0.5rem',
+      fontSize: '1.05rem',
+      borderRadius: '50%',
+      cursor: 'pointer',
+      transition: 'background-color 0.2s',
+      '&:hover': {
         color: theme.tertiary,
         backgroundColor: theme.secondary,
       },

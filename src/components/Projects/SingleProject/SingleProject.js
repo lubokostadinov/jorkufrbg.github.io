@@ -1,42 +1,42 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { FaPlay, FaCode } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import { FaPlay, FaCode } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
-import placeholder from "../../../assets/png/placeholder.png";
-import "./SingleProject.css";
+import placeholder from '../../../assets/png/placeholder.png';
+import './SingleProject.css';
 
 function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
   const useStyles = makeStyles((t) => ({
     iconBtn: {
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
       width: 40,
       height: 40,
       borderRadius: 50,
       border: `2px solid ${theme.tertiary}`,
       color: theme.tertiary,
-      transition: "  all 300ms ease-in-out;",
-      "&:hover": {
+      transition: '  all 300ms ease-in-out;',
+      '&:hover': {
         // backgroundColor: theme.secondary,
         color: theme.orange,
         borderColor: theme.orange,
-        transform: "scale(1.1)",
+        transform: 'scale(1.1)',
         border: `2px solid ${theme.secondary}`,
-        transition: "all 300ms ease-in-out;",
+        transition: 'all 300ms ease-in-out;',
       },
     },
     icon: {
-      fontSize: "1.1rem",
-      transition: " transition: all 300ms ease-in-out;",
-      "&:hover": {},
+      fontSize: '1.1rem',
+      transition: ' transition: all 300ms ease-in-out;',
+      '&:hover': {},
     },
     demoBtnSvg: {
-      position: "relative",
-      left: "2px",
+      position: 'relative',
+      left: '2px',
       //   bottom: "1px",
-      fontSize: "1rem",
+      fontSize: '1rem',
     },
   }));
 
@@ -51,7 +51,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
       >
         <div className="projectContent">
           <h2
-            id={name.replace(" ", "-").toLowerCase()}
+            id={name.replace(' ', '-').toLowerCase()}
             style={{ color: theme.tertiary }}
           >
             {name}
@@ -63,13 +63,13 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
               target="_blank"
               rel="noreferrer"
               className={classes.iconBtn}
-              aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
-                .replace(" ", "-")
+              aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name
+                .replace(' ', '-')
                 .toLowerCase()}-demo`}
             >
               <FaPlay
-                id={`${name.replace(" ", "-").toLowerCase()}-demo`}
-                className={classes.icon + " " + classes.demoBtnSvg}
+                id={`${name.replace(' ', '-').toLowerCase()}-demo`}
+                className={classes.icon + ' ' + classes.demoBtnSvg}
                 aria-label="Demo"
               />
             </a>
@@ -79,18 +79,18 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 target="_blank"
                 rel="noreferrer"
                 className={classes.iconBtn}
-                aria-labelledby={`${name.replace(" ", "-").toLowerCase()} ${name
-                  .replace(" ", "-")
+                aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name
+                  .replace(' ', '-')
                   .toLowerCase()}-code`}
               >
                 <FaCode
-                  id={`${name.replace(" ", "-").toLowerCase()}-code`}
+                  id={`${name.replace(' ', '-').toLowerCase()}-code`}
                   className={classes.icon}
                   aria-label="Code"
                 />
               </a>
             ) : (
-              ""
+              ''
             )}
           </div>
         </div>

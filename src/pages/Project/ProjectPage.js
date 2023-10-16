@@ -1,18 +1,18 @@
-import React, { useContext, useState } from "react";
-import { Helmet } from "react-helmet";
-import { Grid } from "@material-ui/core";
-import { Link } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
-import { AiOutlineHome } from "react-icons/ai";
+import React, { useContext, useState } from 'react';
+import { Helmet } from 'react-helmet';
+import { Grid } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
+import { AiOutlineHome } from 'react-icons/ai';
 
-import "./ProjectPage.css";
-import { SingleProject } from "../../components";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { projectsData } from "../../data/projectsData";
-import { headerData } from "../../data/headerData";
+import './ProjectPage.css';
+import { SingleProject } from '../../components';
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { projectsData } from '../../data/projectsData';
+import { headerData } from '../../data/headerData';
 
 function ProjectPage() {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
   const { theme } = useContext(ThemeContext);
 
   const filteredArticles = projectsData.filter((project) => {
@@ -23,45 +23,45 @@ function ProjectPage() {
   const useStyles = makeStyles((t) => ({
     search: {
       color: theme.tertiary,
-      width: "40%",
-      height: "2.75rem",
-      outline: "none",
-      border: "none",
-      borderRadius: "20px",
-      padding: "1rem 1rem",
+      width: '40%',
+      height: '2.75rem',
+      outline: 'none',
+      border: 'none',
+      borderRadius: '20px',
+      padding: '1rem 1rem',
       fontFamily: "'Noto Sans TC', sans-serif",
       fontWeight: 500,
-      fontSize: "0.9rem",
+      fontSize: '0.9rem',
       backgroundColor: theme.secondary,
       boxShadow:
-        theme.type === "dark"
-          ? "inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060"
-          : "inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030",
-      "&::placeholder": {
+        theme.type === 'dark'
+          ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060'
+          : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
+      '&::placeholder': {
         color: theme.tertiary80,
       },
-      [t.breakpoints.down("sm")]: {
-        width: "350px",
+      [t.breakpoints.down('sm')]: {
+        width: '350px',
       },
     },
     home: {
       color: theme.tertiary,
-      position: "absolute",
-      top: "50%",
-      left: "4rem",
-      padding: "7px",
-      borderRadius: "50%",
-      boxSizing: "content-box",
-      fontSize: "3rem",
-      cursor: "pointer",
-      transform: "translateY(-50%)",
-      transition: "all 0.3s ease-in-out",
-      "&:hover": {
+      position: 'absolute',
+      top: '50%',
+      left: '4rem',
+      padding: '7px',
+      borderRadius: '50%',
+      boxSizing: 'content-box',
+      fontSize: '3rem',
+      cursor: 'pointer',
+      transform: 'translateY(-50%)',
+      transition: 'all 0.3s ease-in-out',
+      '&:hover': {
         color: theme.secondary,
       },
-      [t.breakpoints.down("md")]: {
-        fontSize: "2rem",
-        padding: "0",
+      [t.breakpoints.down('md')]: {
+        fontSize: '2rem',
+        padding: '0',
       },
     },
   }));
