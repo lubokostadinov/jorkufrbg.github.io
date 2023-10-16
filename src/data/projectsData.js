@@ -1,17 +1,18 @@
-import meetups from '../assets/svg/projects/meetups.svg';
-import quotes from '../assets/svg/projects/quotes.svg';
-import jamming from '../assets/svg/projects/jamming.svg';
-import rubik from '../assets/svg/projects/rubik.svg';
-import flights from '../assets/svg/projects/flights.svg';
-import ido from '../assets/svg/projects/ido.svg';
-import wordborn from '../assets/svg/projects/wordborn.svg';
-import whisp from '../assets/svg/projects/whisp.svg';
-import motoretta from '../assets/svg/projects/motoretta.svg';
-import aakasha from '../assets/svg/projects/aakasha.svg';
-import artGallery from '../assets/svg/projects/artGallery.svg';
-import hearteum from '../assets/svg/projects/hearteum.svg';
-import plygear from '../assets/svg/projects/plygear.svg';
-import michael from '../assets/svg/projects/michael.svg';
+import opengl from '../assets/svg/projects/opengl.svg';
+import descent from '../assets/svg/projects/descent.svg';
+import gameEngine from '../assets/svg/projects/game-engine.svg';
+import rayTrace from '../assets/svg/projects/raytrace.svg';
+import empires from '../assets/svg/projects/empires.svg';
+import rouglike from '../assets/svg/projects/rougelike.svg';
+import snack from '../assets/svg/projects/snack.svg';
+
+// import whisp from '../assets/svg/projects/whisp.svg';
+// import motoretta from '../assets/svg/projects/motoretta.svg';
+// import aakasha from '../assets/svg/projects/aakasha.svg';
+// import artGallery from '../assets/svg/projects/artGallery.svg';
+// import hearteum from '../assets/svg/projects/hearteum.svg';
+// import plygear from '../assets/svg/projects/plygear.svg';
+// import michael from '../assets/svg/projects/michael.svg';
 
 export const projectsData = [
   {
@@ -22,7 +23,7 @@ export const projectsData = [
     tags: ['DirectX Raytracing API', '3 year project'],
     code: 'https://github.com/BredaUniversityGames/DXX-Raytracer',
     demo: 'https://youtu.be/wCGnQoakOWc',
-    image: quotes,
+    image: descent,
   },
   {
     id: 2,
@@ -32,7 +33,7 @@ export const projectsData = [
     tags: ['C++', 'OpenGL'],
     code: 'https://github.com/lubokostadinov/3DopenGL.git',
     demo: 'https://youtu.be/DDv-jmcb5X4',
-    image: meetups,
+    image: opengl,
   },
 
   {
@@ -43,7 +44,7 @@ export const projectsData = [
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://www.youtube.com/watch?v=mJh2_gTsIok&feature=youtu.be',
-    image: jamming,
+    image: gameEngine,
   },
   {
     id: 4,
@@ -53,7 +54,7 @@ export const projectsData = [
     tags: ['C++'],
     code: 'https://github.com/lubokostadinov/RayTracer-Project',
     demo: '',
-    image: rubik,
+    image: rayTrace,
   },
   {
     id: 5,
@@ -63,7 +64,7 @@ export const projectsData = [
     tags: ['C++', 'OpenGL', 'ImGui'],
     code: '',
     demo: 'https://youtu.be/T96Bzpo98Is',
-    image: flights,
+    image: empires,
   },
   {
     id: 6,
@@ -73,7 +74,7 @@ export const projectsData = [
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://youtu.be/xErvTAX_Lc8',
-    image: ido,
+    image: rouglike,
   },
   {
     id: 7,
@@ -89,7 +90,7 @@ export const projectsData = [
     ],
     code: '',
     demo: 'https://buas.itch.io/snackbarshowdown',
-    image: wordborn,
+    image: snack,
   },
 ];
 
