@@ -11,7 +11,7 @@
 // import bootstrap from "../assets/svg/skills/bootstrap.svg";
 // import mongoDB from "../assets/svg/skills/mongoDB.svg";
 // import firebase from "../assets/svg/skills/firebase.svg";
-import git from '../assets/svg/skills/git.svg';
+import git from '../assets/svg/skills/git-blue.svg';
 // import lightroom from "../assets/svg/skills/lightroom.svg";
 // import materialui from "../assets/svg/skills/materialui.svg";
 // import figma from "../assets/svg/skills/figma.svg";
@@ -38,8 +38,8 @@ import git from '../assets/svg/skills/git.svg';
 // import tailwind from "../assets/svg/skills/tailwind.svg";
 // import vitejs from "../assets/svg/skills/vitejs.svg";
 // import vuetifyjs from "../assets/svg/skills/vuetifyjs.svg";
-import c from '../assets/svg/skills/c.svg';
-import cplusplus from '../assets/svg/skills/cplusplus.svg';
+import c from '../assets/svg/skills/c-blue.svg';
+import cplusplus from '../assets/svg/skills/cplusplus-blue.svg';
 // import csharp from "../assets/svg/skills/csharp.svg";
 // import dart from "../assets/svg/skills/dart.svg";
 // import go from "../assets/svg/skills/go.svg";
@@ -78,11 +78,11 @@ import cplusplus from '../assets/svg/skills/cplusplus.svg';
 // import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
 // import canva from "../assets/svg/skills/canva.svg";
 
-import directx from '../assets/svg/skills/DirectX.svg';
-import opengl from '../assets/svg/skills/opengl.svg';
-import helixcore from '../assets/svg/skills/helixCore.svg';
-import unrealengine from '../assets/svg/skills/unrealEngine.svg';
-import jira from '../assets/svg/skills/Jira.svg';
+import directx from '../assets/svg/skills/DirectX-blue.svg';
+import opengl from '../assets/svg/skills/opengl-blue.svg';
+import helixcore from '../assets/svg/skills/helixCore-blue.svg';
+import unrealengine from '../assets/svg/skills/unrealEngine-blue.svg';
+import jira from '../assets/svg/skills/Jira-blue.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();

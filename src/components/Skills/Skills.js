@@ -1,11 +1,11 @@
-import React, { useContext } from "react";
-import Marquee from "react-fast-marquee";
+import React, { useContext } from 'react';
+import Marquee from 'react-fast-marquee';
 
-import "./Skills.css";
+import './Skills.css';
 
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { skillsData } from "../../data/skillsData";
-import { skillsImage } from "../../utils/skillsImage";
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { skillsData } from '../../data/skillsData';
+import { skillsImage } from '../../utils/skillsImage';
 
 function Skills() {
   const { theme } = useContext(ThemeContext);
@@ -39,12 +39,12 @@ function Skills() {
               <div className="skill--box" key={id} style={skillBoxStyle}>
                 <img
                   className={
-                    skillsImage(skill).isInverted ? "skillBoxInvertedStyle" : ""
+                    skillsImage(skill).isInverted ? 'skillBoxInvertedStyle' : ''
                   }
                   src={skillsImage(skill).skill}
                   alt={skill}
                 />
-                <h3 style={{ color: theme.tertiary }}>{skill}</h3>
+                <h3 style={{ color: theme.primary }}>{skill}</h3>
               </div>
             ))}
           </Marquee>
