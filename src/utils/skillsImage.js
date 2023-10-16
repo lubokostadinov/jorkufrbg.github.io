@@ -1,23 +1,23 @@
-import javascript from "../assets/svg/skills/javascript.svg";
-import typescript from "../assets/svg/skills/typescript.svg";
-import redux from "../assets/svg/skills/redux.svg";
-import php from "../assets/svg/skills/php.svg";
-import premierepro from "../assets/svg/skills/premierepro.svg";
-import ubuntu from "../assets/svg/skills/ubuntu.svg";
-import nextJS from "../assets/svg/skills/nextJS.svg";
-import photoshop from "../assets/svg/skills/photoshop.svg";
-import illustrator from "../assets/svg/skills/illustrator.svg";
-import react from "../assets/svg/skills/react.svg";
-import bootstrap from "../assets/svg/skills/bootstrap.svg";
-import mongoDB from "../assets/svg/skills/mongoDB.svg";
-import firebase from "../assets/svg/skills/firebase.svg";
-import git from "../assets/svg/skills/git.svg";
-import lightroom from "../assets/svg/skills/lightroom.svg";
-import materialui from "../assets/svg/skills/materialui.svg";
-import figma from "../assets/svg/skills/figma.svg";
-import webpack from "../assets/svg/skills/webpack.svg";
-import scss from "../assets/svg/skills/scss.svg";
-import wordpress from "../assets/svg/skills/wordpress.svg";
+// import javascript from "../assets/svg/skills/javascript.svg";
+// import typescript from "../assets/svg/skills/typescript.svg";
+// import redux from "../assets/svg/skills/redux.svg";
+// import php from "../assets/svg/skills/php.svg";
+// import premierepro from "../assets/svg/skills/premierepro.svg";
+// import ubuntu from "../assets/svg/skills/ubuntu.svg";
+// import nextJS from "../assets/svg/skills/nextJS.svg";
+// import photoshop from "../assets/svg/skills/photoshop.svg";
+// import illustrator from "../assets/svg/skills/illustrator.svg";
+// import react from "../assets/svg/skills/react.svg";
+// import bootstrap from "../assets/svg/skills/bootstrap.svg";
+// import mongoDB from "../assets/svg/skills/mongoDB.svg";
+// import firebase from "../assets/svg/skills/firebase.svg";
+import git from '../assets/svg/skills/git.svg';
+// import lightroom from "../assets/svg/skills/lightroom.svg";
+// import materialui from "../assets/svg/skills/materialui.svg";
+// import figma from "../assets/svg/skills/figma.svg";
+// import webpack from "../assets/svg/skills/webpack.svg";
+// import scss from "../assets/svg/skills/scss.svg";
+// import wordpress from "../assets/svg/skills/wordpress.svg";
 
 // import gcp from "../assets/svg/skills/gcp.svg";
 // import html from "../assets/svg/skills/html.svg";
@@ -39,7 +39,7 @@ import wordpress from "../assets/svg/skills/wordpress.svg";
 // import vitejs from "../assets/svg/skills/vitejs.svg";
 // import vuetifyjs from "../assets/svg/skills/vuetifyjs.svg";
 // import c from "../assets/svg/skills/c.svg";
-// import cplusplus from "../assets/svg/skills/cplusplus.svg";
+import cplusplus from '../assets/svg/skills/cplusplus.svg';
 // import csharp from "../assets/svg/skills/csharp.svg";
 // import dart from "../assets/svg/skills/dart.svg";
 // import go from "../assets/svg/skills/go.svg";
@@ -82,58 +82,58 @@ export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   let isInverted = false;
 
-  if (skillID === "photoshop") {
-    skill = photoshop;
+  if (skillID === 'c++') {
+    skill = cplusplus;
     isInverted = true;
-  } else if (skillID === "illustrator") {
-    skill = illustrator;
-    isInverted = true;
-  } else if (skillID === "scss") {
-    skill = scss;
-  } else if (skillID === "javascript") {
-    skill = javascript;
-  } else if (skillID === "typescript") {
-    skill = typescript;
-    isInverted = true;
-  } else if (skillID === "next js") {
-    skill = nextJS;
-    isInverted = true;
-  } else if (skillID === "react") {
-    skill = react;
-  } else if (skillID === "mongodb") {
-    skill = mongoDB;
-  } else if (skillID === "bootstrap") {
-    skill = bootstrap;
-    isInverted = true;
-  } else if (skillID === "php") {
-    skill = php;
-    isInverted = true;
-  } else if (skillID === "firebase") {
-    skill = firebase;
-  } else if (skillID === "git") {
+  } else if (skillID === 'git') {
     skill = git;
-  } else if (skillID === "lightroom") {
-    skill = lightroom;
     isInverted = true;
-  } else if (skillID === "materialui") {
-    skill = materialui;
-  } else if (skillID === "premiere pro") {
-    skill = premierepro;
-    isInverted = true;
-  } else if (skillID === "wordpress") {
-    skill = wordpress;
-  } else if (skillID === "figma") {
-    skill = figma;
-  } else if (skillID === "webpack") {
-    skill = webpack;
-  } else if (skillID === "ubuntu") {
-    skill = ubuntu;
-    isInverted = true;
-  } else if (skillID === "redux") {
-    skill = redux;
-    isInverted = true;
+    // } else if (skillID === 'scss') {
+    //   skill = scss;
+    // } else if (skillID === 'javascript') {
+    //   skill = javascript;
+    // } else if (skillID === 'typescript') {
+    //   skill = typescript;
+    //   isInverted = true;
+    // } else if (skillID === 'next js') {
+    //   skill = nextJS;
+    //   isInverted = true;
+    // } else if (skillID === 'react') {
+    //   skill = react;
+    // } else if (skillID === 'mongodb') {
+    //   skill = mongoDB;
+    // } else if (skillID === 'bootstrap') {
+    //   skill = bootstrap;
+    //   isInverted = true;
+    // } else if (skillID === 'php') {
+    //   skill = php;
+    //   isInverted = true;
+    // } else if (skillID === 'firebase') {
+    //   skill = firebase;
+    // } else if (skillID === 'git') {
+    //   skill = git;
+    // } else if (skillID === 'lightroom') {
+    //   skill = lightroom;
+    //   isInverted = true;
+    // } else if (skillID === 'materialui') {
+    //   skill = materialui;
+    // } else if (skillID === 'premiere pro') {
+    //   skill = premierepro;
+    //   isInverted = true;
+    // } else if (skillID === 'wordpress') {
+    //   skill = wordpress;
+    // } else if (skillID === 'figma') {
+    //   skill = figma;
+    // } else if (skillID === 'webpack') {
+    //   skill = webpack;
+    // } else if (skillID === 'ubuntu') {
+    //   skill = ubuntu;
+    //   isInverted = true;
+    // } else if (skillID === 'redux') {
+    //   skill = redux;
+    //   isInverted = true;
   } else {
-    skill = "";
+    skill = '';
     isInverted = false;
   }
 

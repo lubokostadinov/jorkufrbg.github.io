@@ -1,16 +1,17 @@
 export const educationData = [
   {
     id: 1,
-    institution: "Medical University of Sofia",
-    course: "Master of Pharmacy",
-    startYear: "2011 ",
-    endYear: " 2017",
+    institution: 'Breda University of Applied Science, Breda, the Netherlands',
+    course: 'Bachelor Creative Media and Game Techologies (programming track)',
+    startYear: '2020',
+    endYear: 'Present',
   },
   {
     id: 2,
-    institution: "31’ High School for Foreign Languages and Finances",
-    course: "High School Diploma",
-    startYear: "2004 ",
-    endYear: " 2009",
+    institution:
+      'Secondary School, Sofia High School of Mathematics (SMG), Sofia, Bulgaria',
+    course: 'High School Diploma',
+    startYear: '2015',
+    endYear: ' 2020',
   },
 ];

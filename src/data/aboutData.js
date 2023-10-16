@@ -1,10 +1,10 @@
 export const aboutData = {
-  title: "Who I am",
+  title: 'Who I am',
   description1:
-    "Proficient individual with over 6 years of experience in website development and interconnected technologies.",
+    'Third year student interested in the field of computer graphics. I have knowledge and experience in C/C++ and the Agile methodologies.',
   description2:
-    "I am deeply interested in real-time web and mobile applications, software design patterns & blockchain technologies. Currently my focus is on React.js and other related/complementary tools, such as Redux, Router, Next.js, etc.",
+    'So far, during my study in university I have worked on different projects, some of which include:',
   description3:
-    "Everlearning with a strong desire to contribute to team and community growth.",
+    'Descent Raytraced, rougelike game with custom game engine, simple ray tracer, strategy game on raspberry pi 4 with 3D graphics using openGL es 3, game engine with 3D graphics using DirectX 12, and small demo game with Unreal Engine.',
   image: 1,
 };

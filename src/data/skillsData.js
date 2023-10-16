@@ -1,31 +1,31 @@
 export const skillsData = [
   // "HTML",
-  "Javascript",
-  "Typescript",
-  "React",
-  "Redux",
-  "Next JS",
-  "Webpack",
+  // "Javascript",
+  // "Typescript",
+  // "React",
+  // "Redux",
+  // "Next JS",
+  // "Webpack",
 
-  "PHP",
-  "Wordpress",
+  // "PHP",
+  // "Wordpress",
 
-  "SCSS",
-  "Bootstrap",
-  "MaterialUI",
+  // "SCSS",
+  // "Bootstrap",
+  // "MaterialUI",
 
-  "MongoDB",
-  "Firebase",
+  // "MongoDB",
+  // "Firebase",
 
-  "Git",
-  "Ubuntu",
+  'Git',
+  // "Ubuntu",
 
-
-  "Figma",
-  "Photoshop",
+  // "Figma",
+  // "Photoshop",
   // "Illustrator",
   // "Lightroom",
   // "Premiere Pro",
+  'C++',
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
