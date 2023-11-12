@@ -4,7 +4,7 @@ import gameEngine from '../assets/svg/projects/game-engine.svg';
 import rayTrace from '../assets/svg/projects/raytrace.svg';
 import empires from '../assets/svg/projects/empires.svg';
 import rouglike from '../assets/svg/projects/rougelike.svg';
-import snack from '../assets/svg/projects/snack.svg';
+//import snack from '../assets/svg/projects/snack.svg';
 
 // import whisp from '../assets/svg/projects/whisp.svg';
 // import motoretta from '../assets/svg/projects/motoretta.svg';
