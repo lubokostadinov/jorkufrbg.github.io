@@ -1,7 +1,7 @@
 export const educationData = [
   {
     id: 1,
-    institution: 'Breda University of Applied Science, Breda, the Netherlands',
+    institution: 'Breda University of Applied Sciences, the Netherlands',
     course: 'Bachelor Creative Media and Game Techologies (programming track)',
     startYear: '2020',
     endYear: 'Present',
@@ -9,7 +9,7 @@ export const educationData = [
   {
     id: 2,
     institution:
-      'Secondary School, Sofia High School of Mathematics (SMG), Sofia, Bulgaria',
+      'Secondary School, Sofia High School of Mathematics, Bulgaria',
     course: 'High School Diploma',
     startYear: '2015',
     endYear: ' 2020',

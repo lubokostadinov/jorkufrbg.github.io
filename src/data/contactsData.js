@@ -1,7 +1,7 @@
 export const contactsData = {
-  email: "jorkufrbg@gmail.com",
-  phone: "+359 889 12 9996",
-  address: "Geo Milev 47, Sofia, Bulgaria ",
+  email: "lubokostadinov13@gmail.com",
+  phone: "+359 88 430 22220",
+  address: "Nishava 113, Sofia, Bulgaria ",
 
   sheetAPI: "https://sheetdb.io/api/v1/ftfkqaytf632q",
 };

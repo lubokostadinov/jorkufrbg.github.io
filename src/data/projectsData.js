@@ -19,79 +19,64 @@ export const projectsData = [
     id: 1,
     projectName: 'Descent Raytraced',
     projectDesc:
-      'During my third year in university I worked on Descent Raytraced. The purpose of the project was to rewrite the graphics of the old game Descent to be using ray tracing. For this project we used DirectX, Raytracing API. I worked on creating the DirectX renderer, implemnting the path tracing algorithm and the physically based rendering.',
-    tags: ['DirectX Raytracing API', '3 year project'],
+      'During my third year at university, I worked on Descent Raytraced with six other programmers. The goal of the project was to replace the graphics of the old game Descent with modern GPU ray tracing. For this project, we used the DirectX Raytracing API. I worked primarily on developing the renderer and implementing the path-traced global illumination, the physically-based rendering, and importance sampling.',
+    tags: ['C/C++', 'HLSL', 'DirectX 12'],
     code: 'https://github.com/BredaUniversityGames/DXX-Raytracer',
     demo: 'https://youtu.be/wCGnQoakOWc',
     image: descent,
   },
   {
     id: 2,
-    projectName: '3D OpenGl',
-    projectDesc:
-      'This project showcases various features in computer graphics, including model loading in OBJ format, materials with textures, instanced rendering, point lights and post-proccessing shaders. I created this program using my knowledge and experiance with C++ and OpenGL during my first academic year.',
-    tags: ['C++', 'OpenGL'],
-    code: 'https://github.com/lubokostadinov/3DopenGL.git',
-    demo: 'https://youtu.be/DDv-jmcb5X4',
-    image: opengl,
-  },
-
-  {
-    id: 3,
     projectName: 'Game Engine',
     projectDesc:
-      'I worked on this project in a group of 4 people, the engine is developed in C++, DirectX 12 for windows graphics and GNMX for PlayStation 4 graphics. The engine provides demo game which runs both on windows and PlayStation 4. For this project I worked on the graphics implementation on windows using DirectX 12. The renderer contains model loading, texture management, directional lights and post-processing pipeline.',
+      'During my second year at university, with 3 other programmers, we developed a cross-platform game engine for Windows and PlayStation 4 using C++, DirectX 12 for Windows graphics, and GNMX for PlayStation 4 graphics. The engine runs a demo game on both Windows and PlayStation 4. I worked on implementing the Windows renderer. The engine includes model loading, textures, directional lights, and a post-processing pipeline.',
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://www.youtube.com/watch?v=mJh2_gTsIok&feature=youtu.be',
     image: gameEngine,
   },
+
   {
-    id: 4,
-    projectName: 'Simple Ray Tracer',
-    projectDesc:
-      'This project is a C++ program that generates a ray traced image with a plane and spheres using diffuse shading and reflection. It uses my own math library and SFML to output the final image. I implemented unit tests for vector operations to ensure accuracy and efficiency.',
-    tags: ['C++'],
-    code: 'https://github.com/lubokostadinov/RayTracer-Project',
-    demo: '',
-    image: rayTrace,
-  },
-  {
-    id: 5,
-    projectName: 'Empires',
-    projectDesc:
-      'Strategy game on raspberry pi 4 built with C++ and openGL es 3. The game generates a galaxy and gives each player a home planet. The goal of the game is to gather resources, craft space ships and conquer the enemy planets. The game contains GUI made with ImGui, 3D models (OBJ format), Instanced rendering and post-processing effects.',
-    tags: ['C++', 'OpenGL', 'ImGui'],
-    code: '',
-    demo: 'https://youtu.be/T96Bzpo98Is',
-    image: empires,
-  },
-  {
-    id: 6,
+    id: 3,
     projectName: 'Rougelike Game',
     projectDesc:
-      'In the second year during my studies I worked on a game with a group with other programmers, artists and designers to create a game, using custom game engine built in C++ and DirectX 12. The game runs both on Windows and PlayStation 4. For this project I worked mostly on implementing the UI elements functionality and a UI editor for the designers to create the menus.',
+      'During the second year at university, I collaborated with other programmers, artists, and designers to create a game using a custom game engine built in C++ and DirectX 12. The game runs on both Windows and PlayStation 4. For this project, I focused primarily on implementing the functionality of UI elements and developing a UI editor to allow designers to create menus.',
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://youtu.be/xErvTAX_Lc8',
     image: rouglike,
   },
   {
-    id: 7,
-    projectName: 'Snackbar Showdown',
+    id: 4,
+    projectName: '3D OpenGL',
     projectDesc:
-      'During my first year at university we had to work in a group project and  release a game, using Unreal Engine. For this game I worked on the Player movement mechanics, his health system, the collectible items and the inventory system.',
-    tags: [
-      'Unreal Engine',
-      'Player Movement Mechanics',
-      'Health System',
-      'Collectibles',
-      'Inventory',
-    ],
-    code: '',
-    demo: 'https://buas.itch.io/snackbarshowdown',
-    image: snack,
+      'Side project to explore the OpenGL API. The project contains model loading in OBJ format, materials with multiple textures, instanced rendering, point lights, and post-processing shaders.',
+    tags: ['C++', 'OpenGL'],
+    code: 'https://github.com/lubokostadinov/3DopenGL.git',
+    demo: 'https://youtu.be/DDv-jmcb5X4',
+    image: opengl,
   },
+  {
+    id: 5,
+    projectName: 'Simple Ray Tracer',
+    projectDesc:
+      'This project is a C++ program that generates a ray traced image with a plane and spheres using diffuse shading and reflection. It uses my own math library and SFML. I implemented unit tests for vector operations to ensure accuracy.',
+    tags: ['C++'],
+    code: 'https://github.com/lubokostadinov/RayTracer-Project',
+    demo: '',
+    image: rayTrace,
+  },
+  {
+    id: 6,
+    projectName: 'Empires',
+    projectDesc:
+      'During my first year at university, I collaborated with another programmer to create a game on Raspberry Pi, using C++, OpenGL ES 3, and ImGui. The game generates a galaxy and assigns each player a home planet. The objective is to gather resources, craft spaceships, and conquer enemy planets. I worked on implementing the renderer, which includes loading 3D models (OBJ format), instanced rendering, and post-processing effects.',
+    tags: ['C++', 'OpenGL', 'ImGui'],
+    code: '',
+    demo: 'https://youtu.be/T96Bzpo98Is',
+    image: empires,
+  },
+
 ];
 
 /*

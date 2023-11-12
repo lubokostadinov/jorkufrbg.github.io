@@ -1,10 +1,8 @@
 export const aboutData = {
-  title: 'Who I am',
+  title: 'About me',
   description1:
-    'Third year student interested in the field of computer graphics. I have knowledge and experience in C/C++ and the Agile methodologies.',
-  description2:
-    'So far, during my study in university I have worked on different projects, some of which include:',
-  description3:
-    'Descent Raytraced, rougelike game with custom game engine, simple ray tracer, strategy game on raspberry pi 4 with 3D graphics using openGL es 3, game engine with 3D graphics using DirectX 12, and small demo game with Unreal Engine.',
+    'I am currently studying game programming at Breda University. During my studies, I have gained knowledge and practical experience in programming with C/C++, OpenGL, DirectX 12, and the agile methodologies.',
+    description2:
+    'My main interest is in graphics and backend programming. I am looking forward to find an internship position, where I can continue learning from more experienced programmers.',
   image: 1,
 };
