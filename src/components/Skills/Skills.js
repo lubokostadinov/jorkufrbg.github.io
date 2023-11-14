@@ -1,3 +1,9 @@
+/**
+ * @Author: Roni Laukkarinen
+ * @Date:   2023-11-14 21:45:03
+ * @Last Modified by:   Roni Laukkarinen
+ * @Last Modified time: 2023-11-15 01:18:55
+ */
 import React, { useContext } from 'react';
 import Marquee from 'react-fast-marquee';
 
@@ -29,10 +35,10 @@ function Skills() {
           <Marquee
             gradient={false}
             speed={80}
-            pauseOnHover={true}
-            pauseOnClick={true}
+            // pauseOnHover={true}
+            // pauseOnClick={true}
             delay={0}
-            play={true}
+            play={false}
             direction="left"
           >
             {skillsData.map((skill, id) => (
