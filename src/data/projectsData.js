@@ -1,9 +1,17 @@
-import opengl from '../assets/svg/projects/opengl.svg';
-import descent from '../assets/svg/projects/descent.svg';
-import gameEngine from '../assets/svg/projects/game-engine.svg';
-import rayTrace from '../assets/svg/projects/raytrace.svg';
-import empires from '../assets/svg/projects/empires.svg';
-import rouglike from '../assets/svg/projects/rougelike.svg';
+// import opengl from '../assets/svg/projects/opengl.svg';
+// import descent from '../assets/svg/projects/descent.svg';
+// import gameEngine from '../assets/svg/projects/game-engine.svg';
+// import rayTrace from '../assets/svg/projects/raytrace.svg';
+// import empires from '../assets/svg/projects/empires.svg';
+// import rouglike from '../assets/svg/projects/rougelike.svg';
+
+import image1 from '../assets/png/scrn0000.png';
+import image2 from '../assets/png/Engine2.png';
+import image3 from '../assets/png/setsuko.png';
+import image4 from '../assets/png/Screenshot (61).png';
+import image5 from '../assets/png/result.png';
+import image6 from '../assets/png/empires.png';
+
 //import snack from '../assets/svg/projects/snack.svg';
 
 // import whisp from '../assets/svg/projects/whisp.svg';
@@ -23,7 +31,7 @@ export const projectsData = [
     tags: ['C/C++', 'HLSL', 'DirectX 12'],
     code: 'https://github.com/BredaUniversityGames/DXX-Raytracer',
     demo: 'https://youtu.be/wCGnQoakOWc',
-    image: descent,
+    image: image1,
   },
   {
     id: 2,
@@ -33,7 +41,7 @@ export const projectsData = [
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://www.youtube.com/watch?v=mJh2_gTsIok&feature=youtu.be',
-    image: gameEngine,
+    image: image2,
   },
 
   {
@@ -44,7 +52,7 @@ export const projectsData = [
     tags: ['C++', 'DirectX 12', 'PlayStation 4'],
     code: '',
     demo: 'https://youtu.be/xErvTAX_Lc8',
-    image: rouglike,
+    image: image3,
   },
   {
     id: 4,
@@ -54,7 +62,7 @@ export const projectsData = [
     tags: ['C++', 'OpenGL'],
     code: 'https://github.com/lubokostadinov/3DopenGL.git',
     demo: 'https://youtu.be/DDv-jmcb5X4',
-    image: opengl,
+    image: image4,
   },
   {
     id: 5,
@@ -63,8 +71,8 @@ export const projectsData = [
       'This project is a C++ program that generates a ray traced image with a plane and spheres using diffuse shading and reflection. It uses my own math library and SFML. I implemented unit tests for vector operations to ensure accuracy.',
     tags: ['C++'],
     code: 'https://github.com/lubokostadinov/RayTracer-Project',
-    demo: '',
-    image: rayTrace,
+    demo: 'https://github.com/lubokostadinov/RayTracer-Project',
+    image: image5,
   },
   {
     id: 6,
@@ -74,7 +82,7 @@ export const projectsData = [
     tags: ['C++', 'OpenGL', 'ImGui'],
     code: '',
     demo: 'https://youtu.be/T96Bzpo98Is',
-    image: empires,
+    image: image6,
   },
 
 ];
